@@ -26,7 +26,7 @@ Landinger replaced an earlier MIT candidate, [shadcn-landing-page](https://githu
 **Business Finance Line**, 50 SVG icons, Envato Elements, licensed to Diler Services.
 
 - Files: `v5/assets/icons/`
-- Used inline on the home page with `fill="currentColor"` so they take black, white, or gold from the section.
+- Used inline on the home page with `fill="currentColor"` so they take the section color. The accent is navy `#1E3A8A`.
 - A few of the supplied SVGs included an extra dollar-mark path drawn over the symbol. Those paths were removed so the icons read as the business symbols themselves.
 - No icon credit on the page.
 
@@ -52,7 +52,7 @@ Original geometric D monogram, drawn for this version:
 - `v5/assets/brand/mark-gold.svg`
 - `v5/favicon.svg`
 
-The wordmark “Diler Services” is set in Rafory Grotesk next to the mark. On black the wordmark is white and the mark is gold. On white the wordmark is black and the mark is gold.
+The wordmark “Diler Services” is set in Rafory Grotesk next to the mark. On the light page the wordmark is near-black and the mark is navy `#1E3A8A`. `mark-gold.svg` keeps its filename and now carries that navy fill.
 
 ## Scope of this version
 
