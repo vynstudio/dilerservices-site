@@ -55,3 +55,15 @@ html body .pricing-section::after,html body .faq-section::after{background:url("
 .ds-contact-photo{margin-top:36px;border-radius:24px;overflow:hidden;aspect-ratio:16/10}
 .ds-contact-photo img{display:block;width:100%;height:100%;object-fit:cover}
 .ds-contact-grid{align-items:start}
+/* strip rework */
+.ds-strip{padding:100px 0 40px}
+.ds-strip-title{color:#144443;margin-bottom:40px;max-width:640px}
+.ds-strip-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.ds-strip-card{display:flex;flex-direction:column;background:#144443;color:#fff;border-radius:24px;padding:36px 32px;height:100%}
+.ds-strip-icon{display:inline-flex;width:52px;height:52px;border-radius:14px;background:rgba(200,241,105,.12);color:#C8F169;align-items:center;justify-content:center;margin-bottom:28px}
+.ds-strip-icon svg{width:26px;height:26px}
+.ds-strip-card h3{color:#fff;font-size:24px;margin-bottom:12px}
+.ds-strip-card p{color:rgba(255,255,255,.8);margin:0;line-height:1.6}
+.ds-strip-tags{display:flex;gap:8px;margin-top:auto;padding-top:20px}
+.ds-strip-tags span{font-weight:600;font-size:13px;letter-spacing:.04em;color:#144443;background:#C8F169;border-radius:8px;padding:5px 10px}
+@media(max-width:991px){.ds-strip{padding:72px 0 24px}.ds-strip-grid{grid-template-columns:1fr;gap:16px}.ds-strip-card{padding:28px 24px}}
