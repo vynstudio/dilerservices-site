@@ -1,0 +1,813 @@
+{
+ "services": [
+  {
+   "slug": "llc-formation",
+   "icon": "building-2",
+   "name": {
+    "en": "LLC Formation",
+    "es": "Formación de LLC"
+   },
+   "price": "$89",
+   "priceNote": {
+    "en": "plus the $125 Florida state fee",
+    "es": "más la tarifa estatal de Florida de $125"
+   },
+   "summary": {
+    "en": "We prepare and file your Articles of Organization with the State of Florida.",
+    "es": "Preparamos y presentamos sus Artículos de Organización ante el Estado de Florida."
+   },
+   "points": {
+    "en": [
+     "Articles of Organization prepared",
+     "Filed with the State of Florida",
+     "Submitted within 1 business day"
+    ],
+    "es": [
+     "Artículos de Organización preparados",
+     "Presentados ante el Estado de Florida",
+     "Enviados en 1 día hábil"
+    ]
+   },
+   "detail": {
+    "lead": {
+     "en": "LLC formation is $89 plus the $125 Florida state fee, passed through at cost. We submit within 1 business day of complete information, or we refund the $89 service fee.",
+     "es": "La formación de LLC cuesta $89 más la tarifa estatal de Florida de $125, que cobramos al costo. Presentamos su trámite dentro de 1 día hábil de recibir la información completa o le devolvemos los $89."
+    },
+    "second": {
+     "en": "Add EIN filing for $95 and registered agent service for $13.99 per month or $169 per year. If the state rejects the name, we refile with a new one at no extra service fee.",
+     "es": "Agregue el EIN por $95 y el servicio de agente registrado por $13.99 al mes o $169 al año. Si el estado rechaza el nombre, lo volvemos a presentar con otro sin costo adicional."
+    },
+    "includes": {
+     "en": [
+      "Articles of Organization prepared",
+      "State fee paid at cost",
+      "State confirmation delivered",
+      "Free name refile",
+      "Service fee guarantee",
+      "Email support in English or Spanish"
+     ],
+     "es": [
+      "Artículos de Organización preparados",
+      "Tarifa estatal pagada al costo",
+      "Confirmación del estado entregada",
+      "Nueva presentación del nombre sin costo",
+      "Garantía de la tarifa de servicio",
+      "Soporte por correo en inglés o español"
+     ]
+    }
+   },
+   "faq": [
+    "llc-what",
+    "llc-outside",
+    "llc-time",
+    "llc-included",
+    "llc-info",
+    "price-llc"
+   ]
+  },
+  {
+   "slug": "formation-bundle",
+   "icon": "package-check",
+   "name": {
+    "en": "Formation Bundle",
+    "es": "Paquete de formación"
+   },
+   "price": "$299",
+   "priceNote": {
+    "en": "total, state fee included",
+    "es": "en total, tarifa estatal incluida"
+   },
+   "summary": {
+    "en": "LLC formation, the Florida state fee and EIN filing in one flat total.",
+    "es": "Formación de LLC, tarifa estatal de Florida y EIN en un solo precio fijo."
+   },
+   "points": {
+    "en": [
+     "LLC formation and EIN filing",
+     "Florida state fee included",
+     "One flat total, saves $10"
+    ],
+    "es": [
+     "Formación de LLC y EIN",
+     "Tarifa estatal de Florida incluida",
+     "Un solo total, ahorra $10"
+    ]
+   },
+   "detail": {
+    "lead": {
+     "en": "The bundle covers LLC formation, the $125 Florida state fee and EIN filing for $299 total, $10 less than ordering them separately.",
+     "es": "El paquete incluye la formación de la LLC, la tarifa estatal de Florida de $125 y el EIN por $299 en total, $10 menos que por separado."
+    },
+    "second": {
+     "en": "We file the EIN application after the state approves your LLC, as the IRS advises.",
+     "es": "Solicitamos el EIN después de que el estado aprueba su LLC, como recomienda el IRS."
+    },
+    "includes": {
+     "en": [
+      "Articles of Organization prepared",
+      "Florida state fee included",
+      "EIN application prepared and submitted",
+      "EIN confirmation letter delivered",
+      "Free name refile",
+      "One point of contact"
+     ],
+     "es": [
+      "Artículos de Organización preparados",
+      "Tarifa estatal de Florida incluida",
+      "Solicitud de EIN preparada y enviada",
+      "Carta de confirmación del EIN entregada",
+      "Nueva presentación del nombre sin costo",
+      "Un solo punto de contacto"
+     ]
+    }
+   },
+   "faq": [
+    "price-llc",
+    "ein-when"
+   ]
+  },
+  {
+   "slug": "ein-filing",
+   "icon": "hash",
+   "name": {
+    "en": "EIN Filing",
+    "es": "Solicitud de EIN"
+   },
+   "price": "$95",
+   "priceNote": {
+    "en": "flat service fee",
+    "es": "tarifa de servicio fija"
+   },
+   "summary": {
+    "en": "We prepare and submit your IRS Employer Identification Number application.",
+    "es": "Preparamos y enviamos su solicitud del Número de Identificación de Empleador al IRS."
+   },
+   "points": {
+    "en": [
+     "IRS employer identification number",
+     "Used for banking and payroll",
+     "Confirmation delivered by email"
+    ],
+    "es": [
+     "Número de identificación del IRS",
+     "Para cuentas bancarias y nómina",
+     "Confirmación enviada por correo"
+    ]
+   },
+   "detail": {
+    "lead": {
+     "en": "An EIN is the federal tax number for your company. The IRS issues it free; our $95 fee covers preparing and submitting the application.",
+     "es": "El EIN es el número federal de impuestos de su empresa. El IRS lo emite sin costo; nuestra tarifa de $95 cubre la preparación y el envío de la solicitud."
+    },
+    "second": {
+     "en": "You will need it to open a business bank account and to run payroll.",
+     "es": "Lo necesitará para abrir una cuenta bancaria comercial y para pagar nómina."
+    },
+    "includes": {
+     "en": [
+      "Application prepared and submitted",
+      "Confirmation letter delivered",
+      "Email support in English or Spanish"
+     ],
+     "es": [
+      "Solicitud preparada y enviada",
+      "Carta de confirmación entregada",
+      "Soporte por correo en inglés o español"
+     ]
+    }
+   },
+   "faq": [
+    "ein-what",
+    "ein-when"
+   ]
+  },
+  {
+   "slug": "registered-agent",
+   "icon": "mailbox",
+   "name": {
+    "en": "Registered Agent",
+    "es": "Agente registrado"
+   },
+   "price": "$13.99/mo",
+   "priceNote": {
+    "en": "or $169 per year",
+    "es": "o $169 al año"
+   },
+   "summary": {
+    "en": "A Florida registered office address that receives official notices for your company.",
+    "es": "Una dirección oficial en Florida que recibe las notificaciones legales de su empresa."
+   },
+   "points": {
+    "en": [
+     "Florida registered agent address",
+     "Official notices received for you",
+     "Same-day mail forwarding"
+    ],
+    "es": [
+     "Dirección de agente registrado en Florida",
+     "Recibimos sus notificaciones oficiales",
+     "Reenvío de correo el mismo día"
+    ]
+   },
+   "detail": {
+    "lead": {
+     "en": "Florida requires every LLC to keep a registered agent at a street address in the state. We serve as that agent for $13.99 per month or $169 per year.",
+     "es": "Florida exige que toda LLC tenga un agente registrado con dirección física en el estado. Nosotros somos ese agente por $13.99 al mes o $169 al año."
+    },
+    "second": {
+     "en": "We receive legal process, notices and state mail for your company and forward them the same day.",
+     "es": "Recibimos notificaciones legales y correo del estado para su empresa y se los reenviamos el mismo día."
+    },
+    "includes": {
+     "en": [
+      "Florida registered office address",
+      "Official notices received for you",
+      "Same-day forwarding",
+      "Annual report reminders",
+      "Monthly or yearly billing"
+     ],
+     "es": [
+      "Dirección de oficina registrada en Florida",
+      "Recepción de notificaciones oficiales",
+      "Reenvío el mismo día",
+      "Recordatorios del informe anual",
+      "Pago mensual o anual"
+     ]
+    }
+   },
+   "faq": [
+    "ra-what",
+    "ra-who",
+    "ra-mail",
+    "ra-price"
+   ]
+  },
+  {
+   "slug": "annual-report",
+   "icon": "calendar-check",
+   "name": {
+    "en": "Annual Report",
+    "es": "Informe anual"
+   },
+   "price": "$99",
+   "priceNote": {
+    "en": "plus state fee ($149 if late)",
+    "es": "más tarifa estatal ($149 si es tarde)"
+   },
+   "summary": {
+    "en": "We file your Florida annual report so your company stays active.",
+    "es": "Presentamos su informe anual de Florida para que su empresa siga activa."
+   },
+   "points": {
+    "en": [
+     "Florida annual report filed",
+     "Due January 1 to May 1",
+     "Keeps the company active"
+    ],
+    "es": [
+     "Informe anual de Florida presentado",
+     "Se vence del 1 de enero al 1 de mayo",
+     "Mantiene su empresa activa"
+    ]
+   },
+   "detail": {
+    "lead": {
+     "en": "Every Florida LLC files an annual report between January 1 and May 1. Our fee is $99, or $149 when filed after May 1, plus the state fee at cost.",
+     "es": "Toda LLC de Florida presenta un informe anual entre el 1 de enero y el 1 de mayo. Nuestra tarifa es $99, o $149 después del 1 de mayo, más la tarifa estatal al costo."
+    },
+    "second": {
+     "en": "The state adds a $400 late fee for LLC reports filed after May 1. We remind you before the deadline.",
+     "es": "El estado cobra un recargo de $400 a los informes de LLC presentados después del 1 de mayo. Le avisamos antes de la fecha límite."
+    },
+    "includes": {
+     "en": [
+      "Annual report prepared and filed",
+      "State fee paid at cost",
+      "State confirmation delivered",
+      "Reminder before the next deadline"
+     ],
+     "es": [
+      "Informe anual preparado y presentado",
+      "Tarifa estatal pagada al costo",
+      "Confirmación del estado entregada",
+      "Recordatorio antes de la próxima fecha"
+     ]
+    }
+   },
+   "faq": [
+    "ar-due",
+    "ar-missed"
+   ]
+  },
+  {
+   "slug": "dba",
+   "icon": "store",
+   "name": {
+    "en": "DBA (Fictitious Name)",
+    "es": "Nombre ficticio (DBA)"
+   },
+   "price": "$129",
+   "priceNote": {
+    "en": "plus the state fee at cost",
+    "es": "más la tarifa estatal al costo"
+   },
+   "summary": {
+    "en": "Register a fictitious name so you can operate under a brand name.",
+    "es": "Registre un nombre ficticio para operar con un nombre comercial."
+   },
+   "points": {
+    "en": [
+     "Fictitious name registration",
+     "Operate under a brand name",
+     "Filed with the State of Florida"
+    ],
+    "es": [
+     "Registro de nombre ficticio",
+     "Opere con un nombre comercial",
+     "Presentado ante el Estado de Florida"
+    ]
+   },
+   "detail": {
+    "lead": {
+     "en": "A fictitious name lets your company do business under a name other than its legal one. Our fee is $129 plus the state fee at cost.",
+     "es": "Un nombre ficticio permite que su empresa opere con un nombre distinto a su nombre legal. Nuestra tarifa es $129 más la tarifa estatal al costo."
+    },
+    "second": {
+     "en": "We prepare the registration and file it with the Florida Division of Corporations.",
+     "es": "Preparamos el registro y lo presentamos ante la División de Corporaciones de Florida."
+    },
+    "includes": {
+     "en": [
+      "Registration prepared and filed",
+      "State fee paid at cost",
+      "State confirmation delivered"
+     ],
+     "es": [
+      "Registro preparado y presentado",
+      "Tarifa estatal pagada al costo",
+      "Confirmación del estado entregada"
+     ]
+    }
+   },
+   "faq": [
+    "price-other"
+   ]
+  },
+  {
+   "slug": "amendment",
+   "icon": "file-pen-line",
+   "name": {
+    "en": "Amendments",
+    "es": "Enmiendas"
+   },
+   "price": "$99",
+   "priceNote": {
+    "en": "plus the state fee at cost",
+    "es": "más la tarifa estatal al costo"
+   },
+   "summary": {
+    "en": "Update members, managers, addresses or the company name on the state record.",
+    "es": "Actualice socios, gerentes, direcciones o el nombre de la empresa en el registro estatal."
+   },
+   "points": {
+    "en": [
+     "Update members or managers",
+     "Change addresses or the name",
+     "Filed with the State of Florida"
+    ],
+    "es": [
+     "Cambie socios o gerentes",
+     "Cambie direcciones o el nombre",
+     "Presentado ante el Estado de Florida"
+    ]
+   },
+   "detail": {
+    "lead": {
+     "en": "When something about your company changes, the state record has to match. Our fee is $99 plus the state fee at cost.",
+     "es": "Cuando algo cambia en su empresa, el registro del estado debe reflejarlo. Nuestra tarifa es $99 más la tarifa estatal al costo."
+    },
+    "second": {
+     "en": "We prepare the Articles of Amendment and file them with the State of Florida.",
+     "es": "Preparamos los Artículos de Enmienda y los presentamos ante el Estado de Florida."
+    },
+    "includes": {
+     "en": [
+      "Articles of Amendment prepared",
+      "State fee paid at cost",
+      "State confirmation delivered"
+     ],
+     "es": [
+      "Artículos de Enmienda preparados",
+      "Tarifa estatal pagada al costo",
+      "Confirmación del estado entregada"
+     ]
+    }
+   },
+   "faq": [
+    "price-other"
+   ]
+  },
+  {
+   "slug": "reinstatement",
+   "icon": "rotate-ccw",
+   "name": {
+    "en": "Reinstatement",
+    "es": "Reactivación"
+   },
+   "price": "$299",
+   "priceNote": {
+    "en": "plus the state fees at cost",
+    "es": "más las tarifas estatales al costo"
+   },
+   "summary": {
+    "en": "Bring a dissolved Florida company back to active status.",
+    "es": "Devuelva una empresa disuelta de Florida a su estado activo."
+   },
+   "points": {
+    "en": [
+     "Restore an inactive company",
+     "Past due reports brought current",
+     "Return to active status"
+    ],
+    "es": [
+     "Reactive una empresa inactiva",
+     "Ponemos al día los informes vencidos",
+     "Vuelva al estado activo"
+    ]
+   },
+   "detail": {
+    "lead": {
+     "en": "Florida dissolves companies that miss the annual report by the third Friday of September. Reinstatement is $299 plus the state fees at cost.",
+     "es": "Florida disuelve a las empresas que no presentan el informe anual antes del tercer viernes de septiembre. La reactivación cuesta $299 más las tarifas estatales al costo."
+    },
+    "second": {
+     "en": "We prepare the reinstatement and bring past due reports current so the company returns to active status.",
+     "es": "Preparamos la reactivación y ponemos al día los informes vencidos para que la empresa vuelva a estar activa."
+    },
+    "includes": {
+     "en": [
+      "Reinstatement prepared and filed",
+      "Past due reports included",
+      "State fees paid at cost",
+      "State confirmation delivered"
+     ],
+     "es": [
+      "Reactivación preparada y presentada",
+      "Informes vencidos incluidos",
+      "Tarifas estatales pagadas al costo",
+      "Confirmación del estado entregada"
+     ]
+    }
+   },
+   "faq": [
+    "ar-missed",
+    "price-other"
+   ]
+  }
+ ],
+ "steps": {
+  "en": [
+   {
+    "title": "Send your information",
+    "text": "Tell us your business name, owners or managers, and mailing address."
+   },
+   {
+    "title": "We prepare the documents",
+    "text": "We prepare your Articles of Organization for the State of Florida."
+   },
+   {
+    "title": "We file with the state",
+    "text": "We submit within 1 business day of receiving complete information."
+   },
+   {
+    "title": "You get your confirmation",
+    "text": "You receive the state confirmation and, if ordered, your EIN letter."
+   }
+  ],
+  "es": [
+   {
+    "title": "Envíe su información",
+    "text": "Indíquenos el nombre de su empresa, los socios o gerentes y su dirección postal."
+   },
+   {
+    "title": "Preparamos los documentos",
+    "text": "Preparamos sus Artículos de Organización para el Estado de Florida."
+   },
+   {
+    "title": "Presentamos ante el estado",
+    "text": "Presentamos su trámite dentro de 1 día hábil de recibir la información completa."
+   },
+   {
+    "title": "Recibe su confirmación",
+    "text": "Recibe la confirmación del estado y, si lo solicitó, su carta del EIN."
+   }
+  ]
+ },
+ "values": {
+  "en": [
+   {
+    "icon": "file-text",
+    "title": "Precision",
+    "text": "Every filing is checked twice. Names, dates and details are exact."
+   },
+   {
+    "icon": "clock",
+    "title": "Speed",
+    "text": "Filed within one business day of complete information."
+   },
+   {
+    "icon": "languages",
+    "title": "Bilingual by design",
+    "text": "English and Spanish are equals, never an afterthought."
+   },
+   {
+    "icon": "shield",
+    "title": "Trust",
+    "text": "Plain pricing, clear limits and a reliable registered address."
+   }
+  ],
+  "es": [
+   {
+    "icon": "file-text",
+    "title": "Precisión",
+    "text": "Revisamos cada trámite dos veces. Nombres, fechas y datos exactos."
+   },
+   {
+    "icon": "clock",
+    "title": "Rapidez",
+    "text": "Presentado dentro de 1 día hábil de recibir la información completa."
+   },
+   {
+    "icon": "languages",
+    "title": "Bilingües de verdad",
+    "text": "El inglés y el español valen lo mismo, nunca son un agregado."
+   },
+   {
+    "icon": "shield",
+    "title": "Confianza",
+    "text": "Precios claros, límites claros y una dirección registrada confiable."
+   }
+  ]
+ },
+ "faq": {
+  "en": [
+   {
+    "title": "Forming an LLC",
+    "items": [
+     {
+      "id": "llc-what",
+      "q": "What is an LLC?",
+      "a": "A limited liability company (LLC) is a business entity created by filing Articles of Organization with the state. Ask an attorney or CPA about liability and tax treatment for your situation."
+     },
+     {
+      "id": "llc-outside",
+      "q": "Do you form Florida LLCs for owners outside Florida?",
+      "a": "Yes. We form Florida LLCs for business owners in every state. Each LLC must keep a Florida registered agent, which we provide."
+     },
+     {
+      "id": "llc-time",
+      "q": "How long does it take to form a Florida LLC?",
+      "a": "We submit the filing within 1 business day of receiving complete information. The State of Florida processes filings in the order received and sends a confirmation once approved."
+     },
+     {
+      "id": "llc-included",
+      "q": "What is included in LLC formation?",
+      "a": "Preparation of the Articles of Organization, filing with the State of Florida, payment of the state fee at cost, and delivery of the state confirmation."
+     },
+     {
+      "id": "llc-info",
+      "q": "What information do you need to start?",
+      "a": "The proposed company name, the names and addresses of the members or managers, a mailing address and a contact email. We send a checklist with each order."
+     }
+    ]
+   },
+   {
+    "title": "Registered agent",
+    "items": [
+     {
+      "id": "ra-what",
+      "q": "What does a registered agent do?",
+      "a": "A registered agent receives legal process, notices and demands for the company and forwards them. Florida law requires every LLC to keep a registered agent and registered office in Florida."
+     },
+     {
+      "id": "ra-who",
+      "q": "Who can serve as a registered agent in Florida?",
+      "a": "Under section 605.0113 of the Florida Statutes, the agent must be a Florida resident or an authorized business entity whose business address is the registered office in Florida."
+     },
+     {
+      "id": "ra-mail",
+      "q": "Do you forward mail?",
+      "a": "Yes. Registered agent clients receive same-day forwarding of documents received for their company."
+     },
+     {
+      "id": "ra-price",
+      "q": "How much is registered agent service?",
+      "a": "$13.99 per month or $169 per year."
+     }
+    ]
+   },
+   {
+    "title": "EIN and compliance",
+    "items": [
+     {
+      "id": "ein-what",
+      "q": "What is an EIN?",
+      "a": "An Employer Identification Number is a federal tax number issued by the IRS free of charge. Our $95 fee covers preparing and submitting the application."
+     },
+     {
+      "id": "ein-when",
+      "q": "When should an LLC apply for an EIN?",
+      "a": "The IRS advises forming the entity with the state first. We file the EIN application after the state approves the LLC."
+     },
+     {
+      "id": "ar-due",
+      "q": "When is the Florida annual report due?",
+      "a": "Every Florida LLC files an annual report between January 1 and May 1. The state adds a $400 late fee to LLC reports filed after May 1."
+     },
+     {
+      "id": "ar-missed",
+      "q": "What happens if the annual report is not filed?",
+      "a": "Florida administratively dissolves companies that have not filed by the third Friday of September. A dissolved company can apply for reinstatement, which we prepare for $299 plus the state fees at cost."
+     }
+    ]
+   },
+   {
+    "title": "Pricing and refunds",
+    "items": [
+     {
+      "id": "price-llc",
+      "q": "How much does it cost to form a Florida LLC?",
+      "a": "$89 plus the $125 Florida state fee, passed through at cost. The formation bundle with EIN filing totals $299."
+     },
+     {
+      "id": "price-other",
+      "q": "What do the other services cost?",
+      "a": "Annual report $99 ($149 if late), DBA $129, amendments $99 and reinstatement $299, each plus the state fee at cost."
+     },
+     {
+      "id": "price-refund",
+      "q": "What is the refund guarantee?",
+      "a": "If we do not submit within 1 business day of complete information, we refund the $89 formation service fee. State fees are not refundable once filed."
+     },
+     {
+      "id": "price-name",
+      "q": "What if the state rejects the business name?",
+      "a": "We refile with a new name at no additional service fee."
+     }
+    ]
+   },
+   {
+    "title": "About us",
+    "items": [
+     {
+      "id": "about-law",
+      "q": "Are you a law firm?",
+      "a": "No. Diler Services LLC is not a law firm and does not give legal or tax advice. We refer legal and tax questions to a licensed attorney or CPA."
+     },
+     {
+      "id": "about-contact",
+      "q": "How can I contact you?",
+      "a": "Email info@dilerservices.com or use the form on the Contact page. We answer in English or Spanish."
+     },
+     {
+      "id": "about-lang",
+      "q": "What languages do you support?",
+      "a": "English and Spanish."
+     }
+    ]
+   }
+  ],
+  "es": [
+   {
+    "title": "Formar una LLC",
+    "items": [
+     {
+      "id": "llc-what",
+      "q": "¿Qué es una LLC?",
+      "a": "Una compañía de responsabilidad limitada (LLC) es una entidad comercial que se crea al presentar los Artículos de Organización ante el estado. Consulte a un abogado o contador sobre la responsabilidad y los impuestos en su caso."
+     },
+     {
+      "id": "llc-outside",
+      "q": "¿Forman LLC en Florida para dueños que viven fuera de Florida?",
+      "a": "Sí. Formamos LLC en Florida para dueños de negocio de cualquier estado. Toda LLC debe tener un agente registrado en Florida, y nosotros ofrecemos ese servicio."
+     },
+     {
+      "id": "llc-time",
+      "q": "¿Cuánto tarda formar una LLC en Florida?",
+      "a": "Presentamos su trámite dentro de 1 día hábil de recibir la información completa. El Estado de Florida procesa los trámites por orden de llegada y envía una confirmación cuando los aprueba."
+     },
+     {
+      "id": "llc-included",
+      "q": "¿Qué incluye la formación de LLC?",
+      "a": "La preparación de los Artículos de Organización, la presentación ante el Estado de Florida, el pago de la tarifa estatal al costo y la entrega de la confirmación del estado."
+     },
+     {
+      "id": "llc-info",
+      "q": "¿Qué información necesitan para empezar?",
+      "a": "El nombre propuesto de la empresa, los nombres y direcciones de los socios o gerentes, una dirección postal y un correo de contacto. Con cada pedido le enviamos una lista."
+     }
+    ]
+   },
+   {
+    "title": "Agente registrado",
+    "items": [
+     {
+      "id": "ra-what",
+      "q": "¿Qué hace un agente registrado?",
+      "a": "El agente registrado recibe notificaciones legales y avisos oficiales para la empresa y se los reenvía. La ley de Florida exige que toda LLC tenga un agente y una oficina registrada en Florida."
+     },
+     {
+      "id": "ra-who",
+      "q": "¿Quién puede ser agente registrado en Florida?",
+      "a": "Según la sección 605.0113 de los Estatutos de Florida, el agente debe ser residente de Florida o una entidad autorizada cuya dirección comercial sea la oficina registrada en Florida."
+     },
+     {
+      "id": "ra-mail",
+      "q": "¿Reenvían el correo?",
+      "a": "Sí. Los clientes de agente registrado reciben el mismo día los documentos que llegan para su empresa."
+     },
+     {
+      "id": "ra-price",
+      "q": "¿Cuánto cuesta el servicio de agente registrado?",
+      "a": "$13.99 al mes o $169 al año."
+     }
+    ]
+   },
+   {
+    "title": "EIN y cumplimiento",
+    "items": [
+     {
+      "id": "ein-what",
+      "q": "¿Qué es un EIN?",
+      "a": "El Número de Identificación de Empleador es un número federal de impuestos que el IRS emite sin costo. Nuestra tarifa de $95 cubre la preparación y el envío de la solicitud."
+     },
+     {
+      "id": "ein-when",
+      "q": "¿Cuándo debe una LLC solicitar el EIN?",
+      "a": "El IRS recomienda formar primero la entidad ante el estado. Solicitamos el EIN después de que el estado aprueba la LLC."
+     },
+     {
+      "id": "ar-due",
+      "q": "¿Cuándo se vence el informe anual de Florida?",
+      "a": "Toda LLC de Florida presenta un informe anual entre el 1 de enero y el 1 de mayo. El estado cobra un recargo de $400 a los informes de LLC presentados después del 1 de mayo."
+     },
+     {
+      "id": "ar-missed",
+      "q": "¿Qué pasa si no se presenta el informe anual?",
+      "a": "Florida disuelve administrativamente a las empresas que no lo presentan antes del tercer viernes de septiembre. Una empresa disuelta puede pedir su reactivación, que preparamos por $299 más las tarifas estatales al costo."
+     }
+    ]
+   },
+   {
+    "title": "Precios y reembolsos",
+    "items": [
+     {
+      "id": "price-llc",
+      "q": "¿Cuánto cuesta formar una LLC en Florida?",
+      "a": "$89 más la tarifa estatal de Florida de $125, que cobramos al costo. El paquete de formación con EIN cuesta $299 en total."
+     },
+     {
+      "id": "price-other",
+      "q": "¿Cuánto cuestan los demás servicios?",
+      "a": "Informe anual $99 ($149 si es tarde), nombre ficticio $129, enmiendas $99 y reactivación $299, cada uno más la tarifa estatal al costo."
+     },
+     {
+      "id": "price-refund",
+      "q": "¿Cuál es la garantía de reembolso?",
+      "a": "Si no presentamos su trámite dentro de 1 día hábil de recibir la información completa, le devolvemos los $89 de la tarifa de formación. Las tarifas estatales no son reembolsables una vez presentadas."
+     },
+     {
+      "id": "price-name",
+      "q": "¿Qué pasa si el estado rechaza el nombre?",
+      "a": "Lo volvemos a presentar con otro nombre sin costo adicional."
+     }
+    ]
+   },
+   {
+    "title": "Sobre nosotros",
+    "items": [
+     {
+      "id": "about-law",
+      "q": "¿Son un bufete de abogados?",
+      "a": "No. Diler Services LLC no es un bufete de abogados y no ofrece asesoría legal ni fiscal. Las preguntas legales y de impuestos las referimos a un abogado o contador con licencia."
+     },
+     {
+      "id": "about-contact",
+      "q": "¿Cómo puedo comunicarme con ustedes?",
+      "a": "Escriba a info@dilerservices.com o use el formulario de la página de Contacto. Respondemos en inglés o en español."
+     },
+     {
+      "id": "about-lang",
+      "q": "¿En qué idiomas atienden?",
+      "a": "En inglés y en español."
+     }
+    ]
+   }
+  ]
+ },
+ "featuredPlans": [
+  "llc-formation",
+  "formation-bundle",
+  "registered-agent"
+ ]
+}
