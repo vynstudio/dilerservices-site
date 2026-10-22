@@ -1,0 +1,57 @@
+---
+import { Picture, Image } from "astro:assets";
+import check from "../assets/home-1/check-mark.png";
+import circle from "../assets/home-1/pricing-circle.png";
+import headLogo from "../assets/home-1/pricing-head-logo.png";
+import headLogoDark from "../assets/home-1/pricing-head-logo-dark.png";
+const { t, base = "/" } = Astro.props;
+const tabs = [["llc", t.pr_tab1, t.llc, false], ["yearly", t.pr_tab2, t.yearly, true]];
+---
+<section class="pricing-section fix section-padding" id="pricing">
+  <div class="pricing-circle"><Picture src={circle} formats={["avif", "webp"]} alt="" loading="lazy" /></div>
+  <div class="auto-container">
+    <div class="sec-title text-center">
+      <div class="h6 sub-title reveal"><span class="triangle triangle1"></span><span class="triangle triangle2"></span> {t.pr_sub}</div>
+      <h2 class="reveal"><Fragment set:html={t.pr_h2} /></h2>
+    </div>
+    <ul class="nav reveal" role="tablist">
+      {tabs.map(([id, label], i) => (
+        <li class="nav-item" role="presentation"><a class:list={["nav-link", { active: i === 0 }]} href={`#${id}`} data-tab={`#${id}`} role="tab" aria-selected={i === 0 ? "true" : "false"}>{label}</a></li>
+      ))}
+    </ul>
+    <div class="tab-content">
+      {tabs.map(([id, , plans, yearly], i) => (
+        <div class:list={["tab-pane fade", { "show active": i === 0 }]} id={id} role="tabpanel">
+          <div class="row">
+            {plans.map((p) => (
+              <div class="col-xl-4 col-lg-6 col-md-6 reveal">
+                <div class:list={["pricing-box-items", { active: p.rec }]}>
+                  {p.rec && <span class="gt-price-tag">{t.recommended}</span>}
+                  <div class="pricing-header">
+                    <div class="title-icon"><Picture src={p.rec ? headLogoDark : headLogo} formats={["avif", "webp"]} alt="" loading="lazy" /></div>
+                    <h3>{p.name}</h3>
+                    <span>{p.summary}</span>
+                  </div>
+                  <ul class="pricing-list">
+                    <li class="fee-line">
+                      <span class="fee-amt">{p.fee}</span> <span class="fee-lbl">{t.svc_fee}{yearly ? ` ${t.per_year}` : ""}</span>
+                      {p.monthly && <span class="fee-detail">{p.monthly}</span>}
+                    </li>
+                    {p.state
+                      ? <li class="fee-line state-line"><span class="fee-amt small">+ {p.state}</span> <span class="fee-lbl">{t.state_fee}</span><span class="fee-detail">{p.sdet}</span></li>
+                      : <li class="fee-line state-line"><span class="fee-detail">{p.sdet}</span></li>}
+                    {p.inc.map((x) => (
+                      <li>{!p.rec && <div class="icon"><Image src={check} alt="" format="webp" /></div>}{x}</li>
+                    ))}
+                  </ul>
+                  <div class="pricing-button"><a class="theme-btn btn-style-one w-100" href={`${base}#contact`}>{t.choose} {p.name}</a></div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+    <p class="pricing-note reveal">{t.pr_note}</p>
+  </div>
+</section>

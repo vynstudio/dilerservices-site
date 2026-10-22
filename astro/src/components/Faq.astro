@@ -1,0 +1,37 @@
+---
+import { Picture } from "astro:assets";
+import faqImg from "../assets/home-1/faq/faq-image.jpg";
+import Icon from "./Icon.astro";
+const { t } = Astro.props;
+---
+<section class="faq-section fix section-padding section-bg bg-cover" id="faq" style="background-image: url('/images/home-1/faq/faq-shape.jpg');">
+  <div class="auto-container">
+    <div class="row g-4 justify-content-between align-items-center">
+      <div class="col-xl-5 col-lg-6">
+        <div class="faq-left-items-1">
+          <div class="sec-title mb-0">
+            <div class="h6 sub-title reveal"><span class="triangle triangle1"></span><span class="triangle triangle2"></span> {t.fq_sub}</div>
+            <h2 class="reveal">{t.fq_h2}</h2>
+          </div>
+          <div class="faq-image"><Picture src={faqImg} formats={["avif", "webp"]} alt="" class="reveal" loading="lazy" /></div>
+        </div>
+      </div>
+      <div class="col-xl-6 col-lg-6">
+        <div class="faq-content-1">
+          <ul class="accordion-box">
+            {t.faqs.map(([q, a], i) => (
+              <li class:list={["accordion block reveal", { "active-block": i === 0 }]}>
+                <button type="button" class:list={["acc-btn", { active: i === 0 }]} aria-expanded={i === 0 ? "true" : "false"} aria-controls={`faq-${i}`} id={`faq-q-${i}`}>
+                  {q} <span class="icon"><Icon name="plus" /></span>
+                </button>
+                <div class:list={["acc-content", { current: i === 0 }]} id={`faq-${i}`} role="region" aria-labelledby={`faq-q-${i}`}>
+                  <div class="content"><div class="text">{a}</div></div>
+                </div>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

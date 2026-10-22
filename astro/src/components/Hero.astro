@@ -1,0 +1,47 @@
+---
+import { Picture } from 'astro:assets';
+import img_home_1_hero_hero_01 from '../assets/home-1/hero/hero-01.jpg';
+import img_home_1_shape_2 from '../assets/home-1/shape-2.png';
+import img_home_1_shape_1 from '../assets/home-1/shape-1.png';
+import img_home_1_shape_3 from '../assets/home-1/shape-3.png';
+const { t } = Astro.props;
+---
+<section class="hero-section hero-1">
+<div class="hero-image">
+<Picture src={img_home_1_hero_hero_01} formats={["avif","webp"]} alt="Florida business owner ready to start an LLC" loading="eager" fetchpriority="high" widths={[480, 720, 960]} sizes="(max-width: 991px) 90vw, 46vw" />
+<div class="shape-2">
+<Picture src={img_home_1_shape_2} formats={["avif","webp"]} alt="" loading="lazy" />
+</div>
+</div>
+<div class="shape-1">
+<Picture src={img_home_1_shape_1} formats={["avif","webp"]} alt="" loading="lazy" />
+</div>
+<div class="shape-3">
+<Picture src={img_home_1_shape_3} formats={["avif","webp"]} alt="" loading="lazy" />
+</div>
+<div class="auto-container">
+<div class="row g-4">
+<div class="col-xl-6 col-lg-12">
+<div class="hero-content">
+<div class="h6">
+<span class="icon">
+<svg fill="none" height="30" viewBox="0 0 30 30" width="30" xmlns="http://www.w3.org/2000/svg">
+<path d="M15 12.5H23.75L10 27.5L13.75 16.25H6.25L16.25 2.5L15 12.5Z" fill="white"></path>
+</svg>
+</span> {t.hero_kicker} </div>
+<h1 class="">{t.hero_h1}</h1>
+<p class="">{t.hero_p}</p>
+<div class="hero-button">
+<a class="theme-btn btn-style-one" href="/#pricing"> {t.hero_btn} <span class="icon">
+<svg fill="none" height="23" viewBox="0 0 22 23" width="22" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M4.34506 2.73895C4.32098 2.04901 4.86066 1.47027 5.5506 1.44616L19.6842 0.952646C20.3741 0.928553 20.9529 1.46824 20.9769 2.15819L21.4705 16.2917C21.4946 16.9817 20.9549 17.5604 20.265 17.5845C19.575 17.6086 18.9963 17.0689 18.9722 16.379L18.5838 5.26141L2.45535 22.5571C1.98454 23.062 1.19354 23.0896 0.688664 22.6188C0.183786 22.148 0.156152 21.357 0.62697 20.8521L16.7554 3.55642L5.63792 3.94457C4.94798 3.96867 4.36914 3.42889 4.34506 2.73895Z" fill="black" fill-rule="evenodd"></path>
+</svg>
+</span>
+</a>
+</div>
+</div>
+</div>
+<div class="col-lg-6"></div>
+</div>
+</div>
+</section>

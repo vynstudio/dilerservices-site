@@ -1,0 +1,51 @@
+---
+import "@fontsource-variable/dm-sans/opsz.css";
+import "@fontsource/poppins/400.css";
+import "@fontsource/poppins/500.css";
+import "@fontsource/poppins/600.css";
+import "../styles/fonts.css";
+const { title, desc, lang = "en", path = "/", schema = [], noindex = true } = Astro.props;
+const site = "https://dilerservices.com";
+const url = site + path;
+const locales = { en: "en_US", es: "es_ES", pt: "pt_BR" };
+---
+<!doctype html>
+<html lang={lang}>
+<head>
+  <meta charset="utf-8" />
+  <script is:inline>document.documentElement.classList.add("js")</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{title}</title>
+  <meta name="description" content={desc} />
+  {noindex && <meta name="robots" content="noindex" />}
+  <link rel="canonical" href={url} />
+  <link rel="alternate" hreflang="en" href={`${site}/`} />
+  <link rel="alternate" hreflang="es" href={`${site}/es/`} />
+  <link rel="alternate" hreflang="pt" href={`${site}/pt/`} />
+  <link rel="alternate" hreflang="x-default" href={`${site}/`} />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Diler Services" />
+  <meta property="og:locale" content={locales[lang]} />
+  {Object.keys(locales).filter((l) => l !== lang).map((l) => <meta property="og:locale:alternate" content={locales[l]} />)}
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={desc} />
+  <meta property="og:url" content={url} />
+  <meta property="og:image" content={`${site}/images/og.jpg`} />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={title} />
+  <meta name="twitter:description" content={desc} />
+  <meta name="twitter:image" content={`${site}/images/og.jpg`} />
+  <link rel="icon" href="/images/favicon.svg" type="image/svg+xml" />
+  <meta name="theme-color" content="#144443" />
+  <link rel="stylesheet" href="/css/site.css" />
+  {schema.map((s) => <script type="application/ld+json" set:html={JSON.stringify(s)} />)}
+</head>
+<body>
+  <div class="page-wrapper">
+    <slot />
+  </div>
+  <script>import "../scripts/main.js";</script>
+</body>
+</html>

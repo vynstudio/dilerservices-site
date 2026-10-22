@@ -1,0 +1,67 @@
+---
+import { Picture } from 'astro:assets';
+import img_home_1_contact_contact_image from '../assets/home-1/contact/contact-image.jpg';
+import img_home_1_contact_shape_1 from '../assets/home-1/contact/shape-1.png';
+const { t } = Astro.props;
+---
+<section class="contact-section fix section-padding" id="contact">
+
+<div class="auto-container">
+<div class="contact-wrapper">
+<div class="row g-4">
+<div class="col-lg-6 col-md-8">
+<div class="contact-content-1">
+<div class="sec-title mb-0">
+<div class="h6 sub-title text-white reveal">
+<span class="triangle triangle1"></span>
+<span class="triangle triangle2"></span> {t.nav_contact} </div>
+<h2 class="text-white reveal">{t.ct_h2}</h2>
+</div>
+<form action="/thanks/" class="form-box reveal" data-netlify="true" method="POST" name="contact" netlify-honeypot="bot-field"><input name="form-name" type="hidden" value="contact"/><input name="language" type="hidden" value="en"/><p hidden=""><label>Do not fill this out <input name="bot-field"/></label></p>
+<div class="row g-4">
+<div class="col-md-12">
+<div class="form-clt"><input aria-label={t.f_name} autocomplete="name" id="name" name="name" placeholder={t.f_name} required="" type="text"/></div>
+</div>
+<div class="col-md-12">
+<div class="form-clt"><input aria-label={t.f_email} autocomplete="email" id="email" name="email" placeholder={t.f_email} required="" type="email"/></div>
+</div>
+<div class="col-md-12">
+<div class="form-clt"><input aria-label={t.f_biz} id="business" name="business" placeholder={t.f_biz} type="text"/></div>
+</div>
+<div class="col-md-12">
+<div class="form-clt"><textarea aria-label={t.f_msg} id="message" name="message" placeholder={t.f_msg}></textarea></div>
+</div>
+<div class="col-md-12">
+<div class="form-clt"><button class="theme-btn btn-style-one w-100" type="submit">{t.f_btn}</button></div>
+</div>
+</div>
+</form>
+</div>
+</div>
+<div class="col-lg-6"></div>
+</div>
+</div>
+</div>
+<div class="contact-image-1">
+<Picture src={img_home_1_contact_contact_image} formats={["avif","webp"]} alt="Business owner" class="reveal" loading="lazy" />
+<div class="shape-image">
+<Picture src={img_home_1_contact_shape_1} formats={["avif","webp"]} alt="" loading="lazy" />
+</div>
+<div class="contact-info-box">
+<div class="h2">{t.ct_box_h}</div>
+<ul class="contact-list">
+<li>
+<div class="icon">
+<img alt="" src="/images/home-1/contact/email.svg"/>
+</div>
+<div class="content"><h3>{t.ct_mail}</h3><p><a href="mailto:info@dilerservices.com">info@dilerservices.com</a></p></div>
+</li>
+<li>
+<div class="icon"><svg aria-hidden="true" class="ico" fill="none" height="1em" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18M12 3c2.5 2.7 3.8 5.7 3.8 9s-1.3 6.3-3.8 9c-2.5-2.7-3.8-5.7-3.8-9S9.5 5.7 12 3z"></path></svg></div>
+<div class="content"><h3>{t.ct_lang}</h3><p>{t.ct_lang_v}</p></div>
+</li>
+</ul>
+
+</div>
+</div>
+</section>

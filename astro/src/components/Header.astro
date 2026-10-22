@@ -1,0 +1,65 @@
+---
+import Logo from "./Logo.astro";
+import LangSwitch from "./LangSwitch.astro";
+import Icon from "./Icon.astro";
+const { t, email, lang = "en", base = "/" } = Astro.props;
+const nav = [[t.nav_home, base], [t.nav_services, `${base}#services`], [t.nav_pricing, `${base}#pricing`], [t.nav_faq, `${base}#faq`], [t.nav_contact, `${base}#contact`]];
+---
+<header class="main-header header-style-one header-1">
+  <div class="header-lower">
+    <div class="main-box">
+      <div class="nav-outer">
+        <div class="logo-box"><div class="logo"><a href={base}><Logo /></a></div></div>
+        <div class="outer-box">
+          <nav class="nav main-menu" aria-label="Main">
+            <ul class="navigation">
+              {nav.map(([n, h], i) => <li class={i === 0 ? "current" : undefined}><a href={h}>{n}</a></li>)}
+            </ul>
+          </nav>
+          <div class="ui-btn-outer">
+            <div class="header-contact">
+              <LangSwitch lang={lang} cls="social-icon lang-switch" />
+              <a class="info-btn" href={`mailto:${email}`}><Icon name="envelope" class="icon" /> {email}</a>
+            </div>
+          </div>
+          <a class="theme-btn btn-style-one" href={`${base}#pricing`}>{t.cta_start}</a>
+          <LangSwitch lang={lang} cls="lang-switch lang-switch-mobile" />
+          <button class="mobile-nav-toggler" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu"><Icon name="bars" class="icon" /></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mobile-menu" id="mobile-menu">
+    <div class="menu-backdrop"></div>
+    <nav class="menu-box" aria-label="Mobile">
+      <div class="upper-box">
+        <div class="nav-logo"><a href={base}><Logo dark /></a></div>
+        <button class="close-btn" type="button" aria-label="Close menu"><Icon name="times" class="icon" /></button>
+      </div>
+      <ul class="navigation clearfix">
+        {nav.map(([n, h], i) => <li class={i === 0 ? "current" : undefined}><a href={h}>{n}</a></li>)}
+      </ul>
+      <ul class="contact-list-one">
+        <li><div class="contact-info-box"><Icon name="envelope" class="icon" /><span class="title">{t.send_email}</span><a href={`mailto:${email}`}>{email}</a></div></li>
+        <li><div class="contact-info-box"><Icon name="globe" class="icon" /><span class="title">{t.lang_label}</span><LangSwitch lang={lang} cls="lang-switch lang-switch-menu" /></div></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="sticky-header">
+    <div class="auto-container">
+      <div class="inner-container">
+        <div class="logo"><a href={base}><Logo /></a></div>
+        <div class="nav-outer">
+          <nav class="main-menu" aria-label="Sticky">
+            <div class="navbar-collapse show collapse clearfix">
+              <ul class="navigation clearfix">
+                {nav.map(([n, h], i) => <li class={i === 0 ? "current" : undefined}><a href={h} tabindex="-1">{n}</a></li>)}
+              </ul>
+            </div>
+          </nav>
+          <button class="mobile-nav-toggler" type="button" aria-label="Open menu" tabindex="-1"><Icon name="bars" class="icon" /></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>

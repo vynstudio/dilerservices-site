@@ -1,0 +1,9 @@
+---
+const { lang = "en", cls = "lang-switch" } = Astro.props;
+const langs = [["en", "/"], ["es", "/es/"], ["pt", "/pt/"]];
+---
+<div class={cls} aria-label="Language">
+  {langs.map(([l, href]) => (
+    <a href={href} hreflang={l} lang={l} class={l === lang ? "active" : undefined} aria-current={l === lang ? "true" : undefined}>{l.toUpperCase()}</a>
+  ))}
+</div>

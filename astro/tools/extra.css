@@ -1,0 +1,16 @@
+:where(button.acc-btn){display:block;width:100%;text-align:left;background:none;border:0;font-family:inherit;font-weight:inherit;color:inherit;line-height:inherit;padding:0;cursor:pointer}
+:where(.mobile-nav-toggler,.close-btn){background:none;border:0;padding:0;color:inherit;cursor:pointer}
+.ico{display:inline-block;vertical-align:-.125em}
+picture{display:contents}
+.project-track{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px}
+@media (max-width:991px){.project-track{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:20px;padding-bottom:8px;scrollbar-width:thin}.project-slide{flex:0 0 85%;scroll-snap-align:start}}
+.js .reveal{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease}
+.js .reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.js .reveal{opacity:1;transform:none;transition:none}*{scroll-behavior:auto!important}}
+.tab-pane.fade{transition:opacity .25s linear}
+.fade:not(.show){opacity:0}.tab-content>.tab-pane{display:none}.tab-content>.active{display:block}
+.project-wrapper{margin-right:0}
+.faq-content-1 .accordion-box .block .acc-btn .icon:before,.faq-content-1 .accordion-box .block .acc-btn.active .icon:before{content:none}
+.faq-content-1 .accordion-box .acc-btn .icon .ico{transition:transform .2s}
+.faq-content-1 .accordion-box .acc-btn.active .icon .ico{transform:rotate(45deg)}
+a[href^="mailto:"]{text-transform:none!important}

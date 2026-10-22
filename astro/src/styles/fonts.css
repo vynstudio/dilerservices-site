@@ -1,0 +1,2 @@
+:root:root{--text-font:"Poppins",sans-serif;--title-font:"DM Sans Variable","DM Sans",sans-serif}
+.diler-logo strong,.diler-logo em,.pricing-box-items .fee-amt{font-family:var(--title-font)!important}

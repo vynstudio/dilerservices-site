@@ -1,0 +1,804 @@
+{
+ "email": "info@dilerservices.com",
+ "en": {
+  "title": "Florida LLC Formation and Registered Agent | Diler Services",
+  "desc": "Form a Florida LLC with clear steps and real help. Florida registered agent, EIN for your LLC, Florida annual report, and a Florida LLC operating agreement.",
+  "nav_home": "Home",
+  "nav_services": "Services",
+  "nav_pricing": "Pricing",
+  "nav_faq": "FAQ",
+  "nav_contact": "Contact",
+  "cta_start": "Start an LLC",
+  "send_email": "Send Email",
+  "lang_label": "Language",
+  "loading": "Loading",
+  "hero_kicker": "Florida LLC formation and registered agent",
+  "hero_h1": "Your Florida LLC, filed right.",
+  "hero_p": "Start a business in Florida with clear steps and real help. LLC Basic is a $99 service fee plus the $125 Florida filing fee, shown on separate lines.",
+  "hero_btn": "See LLC packages",
+  "bs_h2": "Business formation, simplified.",
+  "bs_lang_title": "Servicios en tu idioma",
+  "bs_lang_sub": "English, Spanish, and Portuguese",
+  "bs1_h": "Florida LLC",
+  "bs1_p": "We prepare your articles and file them with the state as you direct.",
+  "bs2_h": "Registered agent",
+  "bs2_p": "A Florida registered office, with mail logged and forwarded the same business day.",
+  "ab_sub": "Who we are",
+  "ab_h2": "Florida filings with open fees",
+  "ab_icon_p": "We handle the paperwork",
+  "ab_text": "Diler Services prepares and files Florida formation documents as you direct and serves as registered agent. We do not mark up state fees, and we are not a law firm.",
+  "ab_l1": "State fees passed through at cost",
+  "ab_l2": "Filed as you direct",
+  "ab_l3": "Annual report reminders",
+  "ab_l4": "Help in your language",
+  "ab_count_lbl": "Languages we work in",
+  "c1": "LLC Basic service fee",
+  "c2": "Florida articles fee, passed through",
+  "c3": "Registered agent, per year",
+  "c4": "Business day to submit on LLC Standard",
+  "sv_sub": "Our services",
+  "sv_h2": "Everything your business needs to get started.",
+  "sv_count_lbl": "Languages, one team",
+  "sv1_h": "Florida LLC",
+  "sv1_p": "Form a Florida LLC without the guesswork. We prepare your paperwork and file it with the state.",
+  "sv2_h": "Registered agent",
+  "sv2_p": "Every Florida LLC needs a registered agent. You use our Florida address, not your home address.",
+  "sv3_h": "EIN for your LLC",
+  "sv3_p": "We request your EIN from the IRS, so you can open a bank account and file taxes.",
+  "sv4_h": "Florida annual report",
+  "sv4_p": "It is due between January 1 and May 1. We remind you, and on Compliance Plus we file it for you.",
+  "hw_sub": "How it works",
+  "hw_h2": "Three steps from idea <br>to a filed Florida LLC",
+  "hw1_h": "Tell us about it",
+  "hw1_p": "Name, owners, and package",
+  "hw2_h": "We file with Florida",
+  "hw2_p": "Articles of Organization",
+  "hw3_h": "Stay in good standing",
+  "hw3_p": "Registered agent and reminders",
+  "mq": [
+   "LLC Formation",
+   "Registered Agent",
+   "EIN",
+   "Annual Report",
+   "Operating Agreement"
+  ],
+  "wc_badge": "Servicios en tu idioma",
+  "wc_sub": "Why Diler Services",
+  "wc_h2": "Clear fees and help you can understand",
+  "wc_tabs": [
+   "Open fees",
+   "Your language",
+   "As you direct",
+   "Reminders"
+  ],
+  "wc_h3": [
+   "Open fees",
+   "Servicios en tu idioma",
+   "Filed as you direct",
+   "Reminders ahead of time"
+  ],
+  "wc_p": [
+   "Our service fee is the only amount we earn. Florida state fees are passed through at cost on a separate line.",
+   "Talk to us in English, Spanish, or Portuguese. Real people answer in your language.",
+   "We prepare and file documents as you direct. We are not a law firm and do not give legal or tax advice.",
+   "Registered agent plans include annual report reminders at 90, 30, and 7 days before the May 1 deadline."
+  ],
+  "wc_list": [
+   [
+    "Service fee and state fee on separate lines",
+    "No markup on state fees",
+    "Card processing included in the service fee"
+   ],
+   [
+    "English",
+    "Español",
+    "Português"
+   ],
+   [
+    "Sunbiz name availability check",
+    "Articles prepared and filed as you direct",
+    "Digital copies of filed documents"
+   ],
+   [
+    "Reminders at 90, 30, and 7 days",
+    "Annual report filed on Compliance Plus",
+    "Plans renew each year until you cancel"
+   ]
+  ],
+  "pr_sub": "Pricing",
+  "pr_h2": "Service fee and state fee, <br>always on separate lines",
+  "pr_tab1": "LLC formation",
+  "pr_tab2": "Yearly plans",
+  "recommended": "Recommended",
+  "svc_fee": "service fee",
+  "per_year": "per year",
+  "state_fee": "state fee",
+  "choose": "Choose",
+  "pr_note": "State fees are paid to Florida at cost and are not part of our service fee. Diler Services, a fictitious name of Diler Dynamics Group LLC, is not a law firm and does not give legal or tax advice.",
+  "ct_sub": "Contact",
+  "ct_h2": "Tell us which filing you need",
+  "f_name": "Full name*",
+  "f_email": "Email*",
+  "f_biz": "Business name",
+  "f_msg": "What do you need? Please do not send an SSN or ITIN.",
+  "f_btn": "Send message",
+  "ct_box_h": "Still have a question?",
+  "ct_mail": "Mail us",
+  "ct_lang": "We answer in",
+  "ct_lang_v": "EN, ES, PT",
+  "fq_sub": "FAQ",
+  "fq_h2": "Frequently asked questions",
+  "faqs": [
+   [
+    "Are you a law firm?",
+    "No. Diler Services is a fictitious name of Diler Dynamics Group LLC. We are not a law firm and we do not give legal or tax advice. We prepare and file documents as you direct."
+   ],
+   [
+    "Why are there two prices on every package?",
+    "The first number is our service fee, the only amount we earn. The second is the Florida state fee, which we pass through at cost on a separate line."
+   ],
+   [
+    "What does the yearly registered agent plan include?",
+    "Registered Agent is $17.99 per month or $169 per year. We serve as your Florida registered agent and registered office, and log and forward mail the same business day. It includes 5 mail scans a year and annual report reminders at 90, 30, and 7 days."
+   ],
+   [
+    "What is Compliance Plus?",
+    "Compliance Plus is $229 per year. It includes the registered agent service, and we file the annual report each year when you confirm your information. The state fee for that report, $138.75 for an LLC, is billed when it is filed."
+   ],
+   [
+    "Can you get an EIN?",
+    "Yes. LLC Standard and LLC Premium include an EIN from the IRS. The IRS does not charge a fee for an EIN. Please do not send a Social Security number or ITIN through the website form."
+   ],
+   [
+    "What languages do you work in?",
+    "English, Spanish, and Portuguese."
+   ],
+   [
+    "Can I keep my home address off the public record?",
+    "Yes. The registered agent address can be the address on the record. Official mail comes to us, and we forward it to you."
+   ],
+   [
+    "When is the Florida annual report due?",
+    "Florida requires every LLC to file a report each year. It's due between January 1 and May 1. We remind you and can file it for you."
+   ],
+   [
+    "Do I need a Florida LLC operating agreement?",
+    "Florida doesn't make you file one. You still want one. It sets who owns what, who makes decisions, and what happens if someone leaves."
+   ]
+  ],
+  "cta_h3": "Ready to file a Florida LLC?",
+  "cta_btn": "Contact us",
+  "ft_news_h3": "Questions? Write to us <br>in your language",
+  "ft_about": "Florida LLC formation, registered agent, EIN, and annual report filings. English, Spanish, and Portuguese.",
+  "ft_company": "Company",
+  "ft_services": "Services",
+  "ft_contact": "Contact",
+  "ft_copy": "Copyright © 2026 Diler Services, a fictitious name of Diler Dynamics Group LLC. Not a law firm.",
+  "pg_pricing_h1": "Pricing",
+  "pg_contact_h1": "Contact",
+  "pg_thanks_h1": "Thank you",
+  "thanks_p": "We received your message and will reply by email.",
+  "back_home": "Back to home",
+  "llc": [
+   {
+    "name": "LLC Basic",
+    "fee": "$99",
+    "rec": false,
+    "summary": "Formation and a first year of registered agent service.",
+    "sdet": "Florida articles fee, paid at cost",
+    "inc": [
+     "Sunbiz name availability check",
+     "Articles of Organization filed as you direct",
+     "First year of registered agent service",
+     "Digital copies of filed documents",
+     "Annual report reminders"
+    ],
+    "state": "$125"
+   },
+   {
+    "name": "LLC Standard",
+    "fee": "$229",
+    "rec": true,
+    "summary": "The package we recommend for most new Florida LLCs.",
+    "sdet": "$125 articles + $5 certificate of status",
+    "inc": [
+     "Everything in LLC Basic",
+     "EIN obtained from the IRS",
+     "Operating agreement template",
+     "Bank account resolution template",
+     "Certificate of status",
+     "Submitted within 1 business day"
+    ],
+    "state": "$130"
+   },
+   {
+    "name": "LLC Premium",
+    "fee": "$399",
+    "rec": false,
+    "summary": "Same-business-day submission, plus Compliance Plus for year 1.",
+    "sdet": "$125 articles + $30 certified copy + $5 certificate of status",
+    "inc": [
+     "Everything in LLC Standard",
+     "Same-business-day submission (does not speed state processing)",
+     "Compliance Plus for year 1",
+     "One amendment in year 1 (state fee extra)",
+     "Domain and business email setup",
+     "Onboarding call and digital records binder"
+    ],
+    "state": "$160"
+   }
+  ],
+  "yearly": [
+   {
+    "name": "Registered Agent",
+    "fee": "$169",
+    "rec": false,
+    "summary": "A Florida registered office, with mail forwarded the same business day.",
+    "sdet": "No state fee for the agent service itself",
+    "inc": [
+     "Florida registered agent and office address",
+     "Mail logged and forwarded the same business day",
+     "5 mail scans per year",
+     "Annual report reminders at 90, 30, and 7 days",
+     "Renews each year until you cancel"
+    ],
+    "monthly": "or $17.99 per month"
+   },
+   {
+    "name": "Compliance Plus",
+    "fee": "$229",
+    "rec": true,
+    "summary": "Registered agent, plus the annual report filed every year.",
+    "sdet": "Annual report state fee $138.75 (LLC), billed when filed",
+    "inc": [
+     "Everything in Registered Agent",
+     "Annual report filed every year",
+     "15 mail scans per year",
+     "1 certificate of status per year",
+     "DBA renewal tracking"
+    ]
+   },
+   {
+    "name": "Compliance Premier",
+    "fee": "$399",
+    "rec": false,
+    "summary": "Compliance Plus, plus an amendment and a yearly good-standing check.",
+    "sdet": "Annual report and amendment state fees billed when filed",
+    "inc": [
+     "Everything in Compliance Plus",
+     "50 mail scans per year",
+     "1 amendment per year",
+     "DBA renewal included when due",
+     "Priority same-day support",
+     "Yearly good-standing check and quarterly check-in emails"
+    ]
+   }
+  ]
+ },
+ "es": {
+  "title": "Formación de LLC en Florida y agente registrado | Diler Services",
+  "desc": "Diler Services forma LLC en Florida y actúa como agente registrado. Los honorarios y las tarifas del estado se muestran por separado. Inglés, español y portugués.",
+  "nav_home": "Inicio",
+  "nav_services": "Servicios",
+  "nav_pricing": "Precios",
+  "nav_faq": "Preguntas",
+  "nav_contact": "Contacto",
+  "cta_start": "Formar una LLC",
+  "send_email": "Escríbanos",
+  "lang_label": "Idioma",
+  "loading": "Cargando",
+  "hero_kicker": "Formación de LLC y agente registrado en Florida",
+  "hero_h1": "Su LLC en Florida, presentada bien.",
+  "hero_p": "Empiece un negocio en Florida con pasos claros y ayuda de verdad. LLC Basic cuesta $99 de honorarios más la tarifa de $125 de Florida, en líneas separadas.",
+  "hero_btn": "Ver paquetes de LLC",
+  "bs_h2": "Formar la empresa, en simple.",
+  "bs_lang_title": "Servicios en tu idioma",
+  "bs_lang_sub": "Inglés, español y portugués",
+  "bs1_h": "LLC en Florida",
+  "bs1_p": "Preparamos sus artículos y los presentamos ante el estado según sus indicaciones.",
+  "bs2_h": "Agente registrado",
+  "bs2_p": "Una oficina registrada en Florida, con el correo registrado y reenviado el mismo día hábil.",
+  "ab_sub": "Quiénes somos",
+  "ab_h2": "Trámites en Florida con tarifas claras",
+  "ab_icon_p": "Nosotros hacemos los papeles",
+  "ab_text": "Diler Services prepara y presenta documentos de formación en Florida según sus indicaciones y actúa como agente registrado. No aumentamos las tarifas del estado y no somos un bufete de abogados.",
+  "ab_l1": "Tarifas del estado al costo",
+  "ab_l2": "Presentado según sus indicaciones",
+  "ab_l3": "Avisos del informe anual",
+  "ab_l4": "Ayuda en su idioma",
+  "ab_count_lbl": "Idiomas en que atendemos",
+  "c1": "Honorarios de LLC Basic",
+  "c2": "Tarifa de artículos de Florida, al costo",
+  "c3": "Agente registrado, por año",
+  "c4": "Día hábil para presentar con LLC Standard",
+  "sv_sub": "Nuestros servicios",
+  "sv_h2": "Todo lo que su negocio necesita para empezar.",
+  "sv_count_lbl": "Idiomas, un equipo",
+  "sv1_h": "LLC en Florida",
+  "sv1_p": "Forme una LLC en Florida sin adivinar el trámite. Preparamos sus papeles y los presentamos ante el estado.",
+  "sv2_h": "Agente registrado",
+  "sv2_p": "Toda LLC en Florida necesita un agente registrado. Usted usa nuestra dirección en Florida, no la de su casa.",
+  "sv3_h": "EIN para su LLC",
+  "sv3_p": "Solicitamos su EIN al IRS para que pueda abrir una cuenta de banco y declarar impuestos.",
+  "sv4_h": "Informe anual de Florida",
+  "sv4_p": "Vence entre el 1 de enero y el 1 de mayo. Le avisamos y, con Compliance Plus, lo presentamos por usted.",
+  "hw_sub": "Cómo funciona",
+  "hw_h2": "Tres pasos de la idea <br>a una LLC presentada",
+  "hw1_h": "Cuéntenos",
+  "hw1_p": "Nombre, dueños y paquete",
+  "hw2_h": "Presentamos en Florida",
+  "hw2_p": "Artículos de organización",
+  "hw3_h": "Manténgase al día",
+  "hw3_p": "Agente registrado y avisos",
+  "mq": [
+   "Formación de LLC",
+   "Agente registrado",
+   "EIN",
+   "Informe anual",
+   "Acuerdo operativo"
+  ],
+  "wc_badge": "Servicios en tu idioma",
+  "wc_sub": "Por qué Diler Services",
+  "wc_h2": "Tarifas claras y ayuda que se entiende",
+  "wc_tabs": [
+   "Tarifas claras",
+   "Su idioma",
+   "Según sus indicaciones",
+   "Avisos"
+  ],
+  "wc_h3": [
+   "Tarifas claras",
+   "Servicios en tu idioma",
+   "Presentado según sus indicaciones",
+   "Avisos con tiempo"
+  ],
+  "wc_p": [
+   "Nuestros honorarios son lo único que cobramos para nosotros. Las tarifas del estado de Florida se pasan al costo, en una línea aparte.",
+   "Hable con nosotros en inglés, español o portugués. Personas de verdad responden en su idioma.",
+   "Preparamos y presentamos documentos según sus indicaciones. No somos un bufete de abogados y no damos asesoría legal ni de impuestos.",
+   "Los planes de agente registrado incluyen avisos del informe anual a los 90, 30 y 7 días antes del 1 de mayo."
+  ],
+  "wc_list": [
+   [
+    "Honorarios y tarifa del estado en líneas separadas",
+    "Sin recargo en tarifas del estado",
+    "El pago con tarjeta está incluido en los honorarios"
+   ],
+   [
+    "English",
+    "Español",
+    "Português"
+   ],
+   [
+    "Verificación del nombre en Sunbiz",
+    "Artículos preparados y presentados según sus indicaciones",
+    "Copias digitales de los documentos presentados"
+   ],
+   [
+    "Avisos a los 90, 30 y 7 días",
+    "Informe anual presentado con Compliance Plus",
+    "Los planes se renuevan cada año hasta que cancele"
+   ]
+  ],
+  "pr_sub": "Precios",
+  "pr_h2": "Honorarios y tarifa del estado, <br>siempre por separado",
+  "pr_tab1": "Formación de LLC",
+  "pr_tab2": "Planes anuales",
+  "recommended": "Recomendado",
+  "svc_fee": "honorarios",
+  "per_year": "por año",
+  "state_fee": "tarifa del estado",
+  "choose": "Elegir",
+  "pr_note": "Las tarifas del estado se pagan a Florida al costo y no forman parte de nuestros honorarios. Diler Services, nombre ficticio de Diler Dynamics Group LLC, no es un bufete de abogados y no da asesoría legal ni de impuestos.",
+  "ct_sub": "Contacto",
+  "ct_h2": "Díganos qué trámite necesita",
+  "f_name": "Nombre completo*",
+  "f_email": "Correo electrónico*",
+  "f_biz": "Nombre del negocio",
+  "f_msg": "¿Qué necesita? No envíe su SSN ni ITIN.",
+  "f_btn": "Enviar mensaje",
+  "ct_box_h": "¿Todavía tiene preguntas?",
+  "ct_mail": "Escríbanos",
+  "ct_lang": "Respondemos en",
+  "ct_lang_v": "EN, ES, PT",
+  "fq_sub": "Preguntas",
+  "fq_h2": "Preguntas frecuentes",
+  "faqs": [
+   [
+    "¿Son un bufete de abogados?",
+    "No. Diler Services es un nombre ficticio de Diler Dynamics Group LLC. No somos un bufete de abogados y no damos asesoría legal ni de impuestos. Preparamos y presentamos documentos según sus indicaciones."
+   ],
+   [
+    "¿Por qué cada paquete tiene dos precios?",
+    "El primer número son nuestros honorarios, lo único que cobramos para nosotros. El segundo es la tarifa del estado de Florida, que pasamos al costo en una línea aparte."
+   ],
+   [
+    "¿Qué incluye el plan anual de agente registrado?",
+    "Registered Agent cuesta $17.99 al mes o $169 al año. Somos su agente registrado y oficina registrada en Florida, y registramos y reenviamos el correo el mismo día hábil. Incluye 5 escaneos de correo al año y avisos del informe anual a los 90, 30 y 7 días."
+   ],
+   [
+    "¿Qué es Compliance Plus?",
+    "Compliance Plus cuesta $229 al año. Incluye el agente registrado, y presentamos el informe anual cada año cuando usted confirma sus datos. La tarifa del estado de ese informe, $138.75 para una LLC, se cobra cuando se presenta."
+   ],
+   [
+    "¿Pueden obtener un EIN?",
+    "Sí. LLC Standard y LLC Premium incluyen un EIN del IRS. El IRS no cobra por el EIN. Por favor no envíe su número de Seguro Social ni ITIN por el formulario del sitio."
+   ],
+   [
+    "¿Qué idiomas atienden?",
+    "Inglés, español y portugués."
+   ]
+  ],
+  "cta_h3": "¿Listo para presentar su LLC en Florida?",
+  "cta_btn": "Contáctenos",
+  "ft_news_h3": "¿Preguntas? Escríbanos <br>en su idioma",
+  "ft_about": "Formación de LLC, agente registrado, EIN e informe anual en Florida. Inglés, español y portugués.",
+  "ft_company": "Empresa",
+  "ft_services": "Servicios",
+  "ft_contact": "Contacto",
+  "ft_copy": "Copyright © 2026 Diler Services, nombre ficticio de Diler Dynamics Group LLC. No es un bufete de abogados.",
+  "pg_pricing_h1": "Precios",
+  "pg_contact_h1": "Contacto",
+  "pg_thanks_h1": "Gracias",
+  "thanks_p": "Recibimos su mensaje y le responderemos por correo electrónico.",
+  "back_home": "Volver al inicio",
+  "llc": [
+   {
+    "name": "LLC Basic",
+    "fee": "$99",
+    "rec": false,
+    "summary": "Formación y un primer año de agente registrado.",
+    "sdet": "Tarifa de artículos de Florida, al costo",
+    "inc": [
+     "Verificación del nombre en Sunbiz",
+     "Artículos de organización presentados según sus indicaciones",
+     "Primer año de agente registrado",
+     "Copias digitales de los documentos",
+     "Avisos del informe anual"
+    ],
+    "state": "$125"
+   },
+   {
+    "name": "LLC Standard",
+    "fee": "$229",
+    "rec": true,
+    "summary": "El paquete que recomendamos para la mayoría de las LLC nuevas.",
+    "sdet": "$125 de artículos + $5 de certificado de estatus",
+    "inc": [
+     "Todo lo de LLC Basic",
+     "EIN obtenido del IRS",
+     "Plantilla de acuerdo operativo",
+     "Plantilla de resolución bancaria",
+     "Certificado de estatus",
+     "Presentado en 1 día hábil"
+    ],
+    "state": "$130"
+   },
+   {
+    "name": "LLC Premium",
+    "fee": "$399",
+    "rec": false,
+    "summary": "Presentación el mismo día hábil, más Compliance Plus el primer año.",
+    "sdet": "$125 de artículos + $30 de copia certificada + $5 de certificado",
+    "inc": [
+     "Todo lo de LLC Standard",
+     "Presentación el mismo día hábil (no acelera al estado)",
+     "Compliance Plus el primer año",
+     "Una enmienda el primer año (tarifa del estado aparte)",
+     "Dominio y correo de empresa",
+     "Llamada de inicio y archivo digital"
+    ],
+    "state": "$160"
+   }
+  ],
+  "yearly": [
+   {
+    "name": "Registered Agent",
+    "fee": "$169",
+    "rec": false,
+    "summary": "Oficina registrada en Florida, con el correo reenviado el mismo día hábil.",
+    "sdet": "Sin tarifa del estado por el servicio de agente",
+    "inc": [
+     "Agente y dirección de oficina registrada en Florida",
+     "Correo registrado y reenviado el mismo día hábil",
+     "5 escaneos de correo al año",
+     "Avisos del informe anual a los 90, 30 y 7 días",
+     "Se renueva cada año hasta que cancele"
+    ],
+    "monthly": "o $17.99 al mes"
+   },
+   {
+    "name": "Compliance Plus",
+    "fee": "$229",
+    "rec": true,
+    "summary": "Agente registrado, más el informe anual presentado cada año.",
+    "sdet": "Tarifa del informe anual $138.75 (LLC), se cobra al presentarlo",
+    "inc": [
+     "Todo lo de Registered Agent",
+     "Informe anual presentado cada año",
+     "15 escaneos de correo al año",
+     "1 certificado de estatus al año",
+     "Seguimiento de renovación de DBA"
+    ]
+   },
+   {
+    "name": "Compliance Premier",
+    "fee": "$399",
+    "rec": false,
+    "summary": "Compliance Plus, más una enmienda y una revisión anual de buen estado.",
+    "sdet": "Tarifas del estado de informe y enmienda se cobran al presentarlas",
+    "inc": [
+     "Todo lo de Compliance Plus",
+     "50 escaneos de correo al año",
+     "1 enmienda al año",
+     "Renovación de DBA incluida cuando vence",
+     "Soporte prioritario el mismo día",
+     "Revisión anual de buen estado y correos trimestrales"
+    ]
+   }
+  ]
+ },
+ "pt": {
+  "title": "Formação de LLC na Flórida e agente registrado | Diler Services",
+  "desc": "A Diler Services forma LLCs na Flórida e atua como agente registrado. Honorários e taxas estaduais aparecem em linhas separadas. Inglês, espanhol e português.",
+  "nav_home": "Início",
+  "nav_services": "Serviços",
+  "nav_pricing": "Preços",
+  "nav_faq": "Dúvidas",
+  "nav_contact": "Contato",
+  "cta_start": "Formar uma LLC",
+  "send_email": "Envie um e-mail",
+  "lang_label": "Idioma",
+  "loading": "Carregando",
+  "hero_kicker": "Formação de LLC e agente registrado na Flórida",
+  "hero_h1": "Sua LLC na Flórida, protocolada certo.",
+  "hero_p": "Comece um negócio na Flórida com passos claros e ajuda de verdade. O LLC Basic custa $99 de honorários mais a taxa de $125 da Flórida, em linhas separadas.",
+  "hero_btn": "Ver pacotes de LLC",
+  "bs_h2": "Formar a empresa, sem complicar.",
+  "bs_lang_title": "Servicios en tu idioma",
+  "bs_lang_sub": "Inglês, espanhol e português",
+  "bs1_h": "LLC na Flórida",
+  "bs1_p": "Preparamos seus artigos e protocolamos no estado conforme você orientar.",
+  "bs2_h": "Agente registrado",
+  "bs2_p": "Um escritório registrado na Flórida, com a correspondência registrada e encaminhada no mesmo dia útil.",
+  "ab_sub": "Quem somos",
+  "ab_h2": "Registros na Flórida com taxas claras",
+  "ab_icon_p": "Nós cuidamos dos papéis",
+  "ab_text": "A Diler Services prepara e protocola documentos de formação na Flórida conforme você orientar e atua como agente registrado. Não aumentamos as taxas estaduais e não somos um escritório de advocacia.",
+  "ab_l1": "Taxas estaduais pelo custo",
+  "ab_l2": "Protocolado conforme você orienta",
+  "ab_l3": "Avisos do relatório anual",
+  "ab_l4": "Ajuda no seu idioma",
+  "ab_count_lbl": "Idiomas em que atendemos",
+  "c1": "Honorários do LLC Basic",
+  "c2": "Taxa de artigos da Flórida, pelo custo",
+  "c3": "Agente registrado, por ano",
+  "c4": "Dia útil para protocolar no LLC Standard",
+  "sv_sub": "Nossos serviços",
+  "sv_h2": "Tudo o que o seu negócio precisa para começar.",
+  "sv_count_lbl": "Idiomas, uma equipe",
+  "sv1_h": "LLC na Flórida",
+  "sv1_p": "Forme uma LLC na Flórida sem adivinhar o caminho. Preparamos seus papéis e protocolamos no estado.",
+  "sv2_h": "Agente registrado",
+  "sv2_p": "Toda LLC na Flórida precisa de um agente registrado. Você usa o nosso endereço na Flórida, não o da sua casa.",
+  "sv3_h": "EIN para a sua LLC",
+  "sv3_p": "Pedimos o seu EIN ao IRS para você abrir uma conta bancária e declarar impostos.",
+  "sv4_h": "Relatório anual da Flórida",
+  "sv4_p": "O prazo vai de 1º de janeiro a 1º de maio. Avisamos você e, no Compliance Plus, protocolamos por você.",
+  "hw_sub": "Como funciona",
+  "hw_h2": "Três passos da ideia <br>a uma LLC protocolada",
+  "hw1_h": "Conte para nós",
+  "hw1_p": "Nome, sócios e pacote",
+  "hw2_h": "Protocolamos na Flórida",
+  "hw2_p": "Artigos de organização",
+  "hw3_h": "Fique em dia",
+  "hw3_p": "Agente registrado e avisos",
+  "mq": [
+   "Formação de LLC",
+   "Agente registrado",
+   "EIN",
+   "Relatório anual",
+   "Contrato social"
+  ],
+  "wc_badge": "Servicios en tu idioma",
+  "wc_sub": "Por que a Diler Services",
+  "wc_h2": "Taxas claras e ajuda que você entende",
+  "wc_tabs": [
+   "Taxas claras",
+   "Seu idioma",
+   "Como você orienta",
+   "Avisos"
+  ],
+  "wc_h3": [
+   "Taxas claras",
+   "Servicios en tu idioma",
+   "Protocolado conforme você orienta",
+   "Avisos com antecedência"
+  ],
+  "wc_p": [
+   "Nossos honorários são o único valor que ganhamos. As taxas estaduais da Flórida são repassadas pelo custo, em uma linha separada.",
+   "Fale conosco em inglês, espanhol ou português. Pessoas de verdade respondem no seu idioma.",
+   "Preparamos e protocolamos documentos conforme você orienta. Não somos um escritório de advocacia e não damos consultoria jurídica ou tributária.",
+   "Os planos de agente registrado incluem avisos do relatório anual 90, 30 e 7 dias antes de 1º de maio."
+  ],
+  "wc_list": [
+   [
+    "Honorários e taxa estadual em linhas separadas",
+    "Sem acréscimo nas taxas estaduais",
+    "O pagamento com cartão está incluído nos honorários"
+   ],
+   [
+    "English",
+    "Español",
+    "Português"
+   ],
+   [
+    "Verificação do nome no Sunbiz",
+    "Artigos preparados e protocolados conforme você orienta",
+    "Cópias digitais dos documentos protocolados"
+   ],
+   [
+    "Avisos aos 90, 30 e 7 dias",
+    "Relatório anual protocolado no Compliance Plus",
+    "Os planos renovam a cada ano até você cancelar"
+   ]
+  ],
+  "pr_sub": "Preços",
+  "pr_h2": "Honorários e taxa estadual, <br>sempre separados",
+  "pr_tab1": "Formação de LLC",
+  "pr_tab2": "Planos anuais",
+  "recommended": "Recomendado",
+  "svc_fee": "honorários",
+  "per_year": "por ano",
+  "state_fee": "taxa estadual",
+  "choose": "Escolher",
+  "pr_note": "As taxas estaduais são pagas à Flórida pelo custo e não fazem parte dos nossos honorários. A Diler Services, nome fictício da Diler Dynamics Group LLC, não é um escritório de advocacia e não dá consultoria jurídica ou tributária.",
+  "ct_sub": "Contato",
+  "ct_h2": "Conte qual registro você precisa",
+  "f_name": "Nome completo*",
+  "f_email": "E-mail*",
+  "f_biz": "Nome da empresa",
+  "f_msg": "Do que você precisa? Não envie SSN nem ITIN.",
+  "f_btn": "Enviar mensagem",
+  "ct_box_h": "Ainda tem dúvidas?",
+  "ct_mail": "Escreva para nós",
+  "ct_lang": "Respondemos em",
+  "ct_lang_v": "EN, ES, PT",
+  "fq_sub": "Dúvidas",
+  "fq_h2": "Perguntas frequentes",
+  "faqs": [
+   [
+    "Vocês são um escritório de advocacia?",
+    "Não. Diler Services é um nome fictício da Diler Dynamics Group LLC. Não somos um escritório de advocacia e não damos consultoria jurídica ou tributária. Preparamos e protocolamos documentos conforme você orienta."
+   ],
+   [
+    "Por que cada pacote tem dois preços?",
+    "O primeiro número são nossos honorários, o único valor que ganhamos. O segundo é a taxa estadual da Flórida, repassada pelo custo em uma linha separada."
+   ],
+   [
+    "O que inclui o plano anual de agente registrado?",
+    "O Registered Agent custa $17.99 por mês ou $169 por ano. Somos seu agente registrado e escritório registrado na Flórida, e registramos e encaminhamos a correspondência no mesmo dia útil. Inclui 5 digitalizações por ano e avisos do relatório anual aos 90, 30 e 7 dias."
+   ],
+   [
+    "O que é o Compliance Plus?",
+    "O Compliance Plus custa $229 por ano. Inclui o agente registrado, e protocolamos o relatório anual todo ano quando você confirma seus dados. A taxa estadual desse relatório, $138.75 para uma LLC, é cobrada quando ele é protocolado."
+   ],
+   [
+    "Vocês conseguem o EIN?",
+    "Sim. O LLC Standard e o LLC Premium incluem um EIN do IRS. O IRS não cobra pelo EIN. Por favor, não envie número de Seguro Social nem ITIN pelo formulário do site."
+   ],
+   [
+    "Em quais idiomas vocês atendem?",
+    "Inglês, espanhol e português."
+   ]
+  ],
+  "cta_h3": "Pronto para protocolar sua LLC na Flórida?",
+  "cta_btn": "Fale conosco",
+  "ft_news_h3": "Dúvidas? Escreva para nós <br>no seu idioma",
+  "ft_about": "Formação de LLC, agente registrado, EIN e relatório anual na Flórida. Inglês, espanhol e português.",
+  "ft_company": "Empresa",
+  "ft_services": "Serviços",
+  "ft_contact": "Contato",
+  "ft_copy": "Copyright © 2026 Diler Services, nome fictício da Diler Dynamics Group LLC. Não é um escritório de advocacia.",
+  "pg_pricing_h1": "Preços",
+  "pg_contact_h1": "Contato",
+  "pg_thanks_h1": "Obrigado",
+  "thanks_p": "Recebemos sua mensagem e responderemos por e-mail.",
+  "back_home": "Voltar ao início",
+  "llc": [
+   {
+    "name": "LLC Basic",
+    "fee": "$99",
+    "rec": false,
+    "summary": "Formação e um primeiro ano de agente registrado.",
+    "sdet": "Taxa de artigos da Flórida, pelo custo",
+    "inc": [
+     "Verificação do nome no Sunbiz",
+     "Artigos de organização protocolados conforme você orienta",
+     "Primeiro ano de agente registrado",
+     "Cópias digitais dos documentos",
+     "Avisos do relatório anual"
+    ],
+    "state": "$125"
+   },
+   {
+    "name": "LLC Standard",
+    "fee": "$229",
+    "rec": true,
+    "summary": "O pacote que recomendamos para a maioria das novas LLCs.",
+    "sdet": "$125 de artigos + $5 de certidão de status",
+    "inc": [
+     "Tudo do LLC Basic",
+     "EIN obtido do IRS",
+     "Modelo de contrato social",
+     "Modelo de resolução bancária",
+     "Certidão de status",
+     "Protocolado em 1 dia útil"
+    ],
+    "state": "$130"
+   },
+   {
+    "name": "LLC Premium",
+    "fee": "$399",
+    "rec": false,
+    "summary": "Protocolo no mesmo dia útil, mais Compliance Plus no primeiro ano.",
+    "sdet": "$125 de artigos + $30 de cópia certificada + $5 de certidão",
+    "inc": [
+     "Tudo do LLC Standard",
+     "Protocolo no mesmo dia útil (não acelera o estado)",
+     "Compliance Plus no primeiro ano",
+     "Uma alteração no primeiro ano (taxa estadual à parte)",
+     "Domínio e e-mail da empresa",
+     "Chamada de início e arquivo digital"
+    ],
+    "state": "$160"
+   }
+  ],
+  "yearly": [
+   {
+    "name": "Registered Agent",
+    "fee": "$169",
+    "rec": false,
+    "summary": "Escritório registrado na Flórida, com correspondência encaminhada no mesmo dia útil.",
+    "sdet": "Sem taxa estadual pelo serviço de agente",
+    "inc": [
+     "Agente e endereço de escritório registrado na Flórida",
+     "Correspondência registrada e encaminhada no mesmo dia útil",
+     "5 digitalizações por ano",
+     "Avisos do relatório anual aos 90, 30 e 7 dias",
+     "Renova a cada ano até você cancelar"
+    ],
+    "monthly": "ou $17.99 por mês"
+   },
+   {
+    "name": "Compliance Plus",
+    "fee": "$229",
+    "rec": true,
+    "summary": "Agente registrado, mais o relatório anual protocolado todo ano.",
+    "sdet": "Taxa do relatório anual $138.75 (LLC), cobrada ao protocolar",
+    "inc": [
+     "Tudo do Registered Agent",
+     "Relatório anual protocolado todo ano",
+     "15 digitalizações por ano",
+     "1 certidão de status por ano",
+     "Acompanhamento da renovação do DBA"
+    ]
+   },
+   {
+    "name": "Compliance Premier",
+    "fee": "$399",
+    "rec": false,
+    "summary": "Compliance Plus, mais uma alteração e uma verificação anual de regularidade.",
+    "sdet": "Taxas estaduais do relatório e da alteração cobradas ao protocolar",
+    "inc": [
+     "Tudo do Compliance Plus",
+     "50 digitalizações por ano",
+     "1 alteração por ano",
+     "Renovação do DBA incluída no vencimento",
+     "Suporte prioritário no mesmo dia",
+     "Verificação anual de regularidade e e-mails trimestrais"
+    ]
+   }
+  ]
+ }
+}

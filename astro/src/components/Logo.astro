@@ -1,0 +1,7 @@
+---
+const { dark = false } = Astro.props;
+---
+<span class:list={["diler-logo", { "on-dark": dark }]}>
+  <svg aria-hidden="true" width="40" height="40" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M6.5 4.5h9.2c6.7 0 11.3 4.6 11.3 11.5s-4.6 11.5-11.3 11.5H6.5v-23zm3.4 3.3v16.4h5.6c4.7 0 7.9-3.2 7.9-8.2s-3.2-8.2-7.9-8.2H9.9z" fill={dark ? "#ffffff" : "#144443"} fill-rule="evenodd"/></svg>
+  <span class="diler-word"><strong>Diler</strong><em>Services</em></span>
+</span>

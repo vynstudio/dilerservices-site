@@ -1,0 +1,35 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Header from "../components/Header.astro";
+import Hero from "../components/Hero.astro";
+import BusinessSolution from "../components/BusinessSolution.astro";
+import About from "../components/About.astro";
+import Counters from "../components/Counters.astro";
+import Services from "../components/Services.astro";
+import HowItWorks from "../components/HowItWorks.astro";
+import WhyChoose from "../components/WhyChoose.astro";
+import Pricing from "../components/Pricing.astro";
+import Faq from "../components/Faq.astro";
+import Contact from "../components/Contact.astro";
+import Footer from "../components/Footer.astro";
+import content from "../data/content.json";
+import schema from "../data/schema-en.json";
+const t = content.en;
+const email = content.email;
+---
+<BaseLayout title={t.title} desc={t.desc} lang="en" path="/" schema={schema}>
+  <Header t={t} email={email} />
+  <main>
+    <Hero t={t} />
+    <BusinessSolution t={t} />
+    <About t={t} />
+    <Counters t={t} />
+    <Services t={t} />
+    <HowItWorks t={t} />
+    <WhyChoose t={t} />
+    <Pricing t={t} />
+    <Faq t={t} />
+    <Contact t={t} email={email} />
+  </main>
+  <Footer t={t} email={email} />
+</BaseLayout>
