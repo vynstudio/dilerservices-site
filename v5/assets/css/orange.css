@@ -28,20 +28,25 @@ main>.section,.section{position:relative}
 .ok-ico{width:20px;height:20px;padding:3px;border-radius:50%;background:#16A34A;color:#fff;flex:0 0 auto;display:inline-block;vertical-align:-4px}
 .step.is-approved strong{color:#15803D;display:flex;align-items:center;gap:8px}
 .sc-steps li.is-approved{color:#15803D;font-weight:600}
-/* Hero soft squares and blocks (v3) */
+/* Hero angular bands and lines (v5) */
 .hero2{overflow:hidden}
-.hero-pills{position:absolute;inset:0;z-index:0;pointer-events:none}
+.hero-pills{position:absolute;inset:0;z-index:0;pointer-events:none;overflow:hidden}
 .hero2 .wrap,.hero2 .hero2-grid{position:relative;z-index:1}
-.hero-pills span{position:absolute;box-sizing:border-box}
-.hero-pills .q1{width:120px;height:120px;top:6%;right:3%;border-radius:16px;background:linear-gradient(135deg,#FA4616,#FF8A3D);opacity:.5;transform:rotate(12deg);animation:sqfloat 16s ease-in-out infinite}
-.hero-pills .q2{width:84px;height:84px;top:15%;right:9%;border-radius:14px;border:2.5px solid #FA4616;opacity:.6;transform:rotate(-8deg);animation:sqfloat 19s ease-in-out infinite reverse}
-.hero-pills .q3{width:180px;height:72px;bottom:8%;right:6%;border-radius:12px;background:rgba(255,178,122,.32);transform:rotate(-4deg);animation:sqfloat 21s ease-in-out infinite}
-.hero-pills .q4{width:64px;height:64px;bottom:10%;left:3%;border-radius:12px;background:linear-gradient(135deg,#FF8A3D,#FFD2A8);opacity:.45;transform:rotate(18deg);animation:sqfloat 17s ease-in-out infinite reverse}
-.hero-pills .q5{width:28px;height:28px;bottom:24%;left:9%;border-radius:8px;border:2px solid #FF8A3D;opacity:.55;transform:rotate(-14deg)}
-@keyframes sqfloat{0%,100%{translate:0 0}50%{translate:0 -8px}}
+.hero-pills span{position:absolute;display:block;border-radius:0}
+.hero-pills .b1{top:0;right:0;width:46%;height:100%;background:linear-gradient(200deg,#FA4616,#FF8A3D 60%,transparent);opacity:.16;clip-path:polygon(62% 0,78% 0,30% 100%,14% 100%)}
+.hero-pills .b2{top:0;right:0;width:46%;height:100%;background:linear-gradient(200deg,#FF8A3D,transparent 80%);opacity:.12;clip-path:polygon(86% 0,94% 0,50% 100%,42% 100%)}
+.hero-pills .b3{top:0;right:0;width:12%;height:34%;background:#FA4616;opacity:.14;clip-path:polygon(100% 0,100% 100%,20% 0)}
+.hero-pills .l1,.hero-pills .l2,.hero-pills .l3,.hero-pills .l4{top:-10%;height:2px;width:520px;right:-60px;background:linear-gradient(270deg,#FA4616,transparent);transform:rotate(-20deg);transform-origin:right top;opacity:.3}
+.hero-pills .l1{top:8%}
+.hero-pills .l2{top:11%;height:1px;opacity:.26}
+.hero-pills .l3{top:14%;height:1px;opacity:.22;width:440px}
+.hero-pills .l4{top:17%;height:1px;opacity:.18;width:360px}
+.hero-pills .b1,.hero-pills .b2{animation:shimmer 16s ease-in-out infinite}
+@keyframes shimmer{0%,100%{translate:0 0}50%{translate:-14px 0}}
 @media (max-width:760px){
-.hero-pills .q2,.hero-pills .q5{display:none}
-.hero-pills .q1{width:34px;height:34px;top:6px;right:8px;border-radius:10px}
-.hero-pills .q3{width:96px;height:40px;bottom:2%;right:4%;border-radius:10px}
-.hero-pills .q4{width:36px;height:36px;bottom:auto;top:54%;left:-14px;border-radius:10px}}
+.hero-pills .b2,.hero-pills .l3,.hero-pills .l4{display:none}
+.hero-pills .b1{width:60%;height:60px;opacity:.12}
+.hero-pills .b3{width:22%;height:40px;opacity:.12}
+.hero-pills .l1{width:140px;top:2%;right:-20px;opacity:.22}
+.hero-pills .l2{width:100px;top:4%;right:-20px;opacity:.18}}
 @media (prefers-reduced-motion:reduce){.hero-pills span{animation:none!important}}
