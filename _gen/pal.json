@@ -1,0 +1,8 @@
+{
+ "a":{"label":"A. Florida Blue, refined","primary":"#0021A5","secondary":"#001466","accent":"#C2340A","dark":"#0B1533","light":"#F6F8FC","text":"#1F2430",
+      "muted":"#4F5563","soft":"#F2D3DF","tint":"#EEF1FA","tint2":"#E6EAF7","border":"#DDE2EC","logo":"#9E2B5A","input":"#0A2A8F"},
+ "b":{"label":"B. Navy and Gold","primary":"#14284B","secondary":"#1F3A68","accent":"#8A6A1F","dark":"#0F1E3A","light":"#F7F4EC","text":"#1E2433",
+      "muted":"#50555F","soft":"#E6D29A","tint":"#F3EEDD","tint2":"#E6E9F0","border":"#E4DDCB","logo":"#8A6A1F","input":"#1F3A68"},
+ "c":{"label":"C. Deep Teal and Slate","primary":"#0F5257","secondary":"#3C4F5C","accent":"#1E7550","dark":"#10262B","light":"#F2F6F6","text":"#1F2A30",
+      "muted":"#4A575E","soft":"#BFE3D6","tint":"#E4F0EC","tint2":"#E1EBEC","border":"#D5E0E0","logo":"#1E7550","input":"#176168"}
+}
