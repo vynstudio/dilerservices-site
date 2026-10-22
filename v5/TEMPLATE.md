@@ -25,8 +25,7 @@ Landinger replaced an earlier MIT candidate, [shadcn-landing-page](https://githu
 
 **Business Finance Line**, 50 SVG icons, Envato Elements, licensed to Diler Services.
 
-- Files: `v5/assets/icons/`
-- Used inline on the home page with `fill="currentColor"` so they take the section color. The accent is navy `#1E3A8A`.
+- Used inline on the home page with `fill="currentColor"`. The accent is navy `#1E3A8A`. The source SVG files are not shipped.
 - A few of the supplied SVGs included an extra dollar-mark path drawn over the symbol. Those paths were removed so the icons read as the business symbols themselves.
 - No icon credit on the page.
 
@@ -36,11 +35,11 @@ Landinger replaced an earlier MIT candidate, [shadcn-landing-page](https://githu
 
 - Self-hosted: `v5/assets/fonts/Rafory.woff2`
 - Used for headlines and the wordmark. Evaluated against Inter at display size: the geometric forms and tighter rhythm read as a custom brand face, which is what the headlines need. It ships as a single Regular weight, so size and tracking carry the hierarchy.
-- Inter (SIL Open Font License) is self-hosted for body copy and the product UI, where a neutral text face stays readable. Files: `v5/assets/fonts/inter-400.woff2`, `inter-500.woff2`, `inter-600.woff2`.
+- Inter (SIL Open Font License) is self-hosted for body copy and the product UI. Files: `v5/assets/fonts/inter-400.woff2` and `inter-600.woff2`.
 
 ## Photographs
 
-Licensed Envato photographs supplied for this project, in `v5/assets/img/photo-01.jpg` through `photo-10.jpg`. No photo credit on the page.
+Licensed Envato photographs supplied for this project. The home page ships three, as responsive WebP: `photo-03`, `photo-06`, and `photo-09`. No photo credit on the page.
 
 ## Logo
 
