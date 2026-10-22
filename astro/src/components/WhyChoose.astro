@@ -3,7 +3,7 @@ import { Picture } from 'astro:assets';
 import img_home_1_choose_us_choose_us from '../assets/home-1/choose-us/choose-us.jpg';
 const { t } = Astro.props;
 ---
-<section class="why-choose-section fix section-bg" style="background-image: url('/images/home-1/choose-us/choose-us-shape.png');">
+<section class="why-choose-section fix section-bg">
 <div class="auto-container">
 <div class="why-choose-us-wrapper">
 <div class="row g-4 align-items-center">
@@ -31,9 +31,7 @@ const { t } = Astro.props;
 <div class="col-xl-7 col-lg-6">
 <div class="why-choose-us-content-1">
 <div class="sec-title mb-0">
-<div class="h6 sub-title">
-<span class="triangle triangle1"></span>
-<span class="triangle triangle2"></span> {t.wc_sub} </div>
+<div class="h6 sub-title"> {t.wc_sub} </div>
 <h2 class="reveal">{t.wc_h2}</h2>
 </div>
 <ul class="nav">

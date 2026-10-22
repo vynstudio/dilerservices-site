@@ -1,7 +1,6 @@
 ---
 import { Picture } from 'astro:assets';
 import img_home_1_contact_contact_image from '../assets/home-1/contact/contact-image.jpg';
-import img_home_1_contact_shape_1 from '../assets/home-1/contact/shape-1.png';
 const { t } = Astro.props;
 ---
 <section class="contact-section fix section-padding" id="contact">
@@ -12,9 +11,7 @@ const { t } = Astro.props;
 <div class="col-lg-6 col-md-8">
 <div class="contact-content-1">
 <div class="sec-title mb-0">
-<div class="h6 sub-title text-white reveal">
-<span class="triangle triangle1"></span>
-<span class="triangle triangle2"></span> {t.nav_contact} </div>
+<div class="h6 sub-title text-white reveal"> {t.nav_contact} </div>
 <h2 class="text-white reveal">{t.ct_h2}</h2>
 </div>
 <form action="/thanks/" class="form-box reveal" data-netlify="true" method="POST" name="contact" netlify-honeypot="bot-field"><input name="form-name" type="hidden" value="contact"/><input name="language" type="hidden" value="en"/><p hidden=""><label>Do not fill this out <input name="bot-field"/></label></p>
@@ -44,9 +41,6 @@ const { t } = Astro.props;
 </div>
 <div class="contact-image-1">
 <Picture src={img_home_1_contact_contact_image} formats={["avif","webp"]} alt="Business owner" class="reveal" loading="lazy" />
-<div class="shape-image">
-<Picture src={img_home_1_contact_shape_1} formats={["avif","webp"]} alt="" loading="lazy" />
-</div>
 <div class="contact-info-box">
 <div class="h2">{t.ct_box_h}</div>
 <ul class="contact-list">

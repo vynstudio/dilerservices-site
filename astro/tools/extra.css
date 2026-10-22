@@ -14,3 +14,9 @@ picture{display:contents}
 .faq-content-1 .accordion-box .acc-btn .icon .ico{transition:transform .2s}
 .faq-content-1 .accordion-box .acc-btn.active .icon .ico{transform:rotate(45deg)}
 a[href^="mailto:"]{text-transform:none!important}
+/* clean: no decorative ornaments */
+.about-image-1{-webkit-mask:none!important;mask:none!important}
+.about-image-1 img{border-radius:24px}
+.hero-1::before,.hero-1::after,.hero-1 .hero-image::before,.hero-1 .hero-image::after,.business-solution-section::before,.business-solution-section::after,.feature-left-content-1::before,.feature-left-content-1::after,.service-section::before,.service-section::after,.why-choose-section::before,.why-choose-section::after,.pricing-section::before,.pricing-section::after,.faq-section::before,.faq-section::after,.footer-section-1::before,.footer-section-1::after,.counter-box::before,.counter-box::after,.project-section::before,.project-section::after,.contact-section::before,.contact-section::after{content:none!important;background:none!important}
+.sec-title .sub-title,.sub-title{padding-left:0!important}
+.sub-title::before,.sub-title::after{content:none!important}

@@ -1,17 +1,15 @@
 ---
 import { Picture, Image } from "astro:assets";
 import check from "../assets/home-1/check-mark.png";
-import circle from "../assets/home-1/pricing-circle.png";
 import headLogo from "../assets/home-1/pricing-head-logo.png";
 import headLogoDark from "../assets/home-1/pricing-head-logo-dark.png";
 const { t, base = "/" } = Astro.props;
 const tabs = [["llc", t.pr_tab1, t.llc, false], ["yearly", t.pr_tab2, t.yearly, true]];
 ---
 <section class="pricing-section fix section-padding" id="pricing">
-  <div class="pricing-circle"><Picture src={circle} formats={["avif", "webp"]} alt="" loading="lazy" /></div>
   <div class="auto-container">
     <div class="sec-title text-center">
-      <div class="h6 sub-title reveal"><span class="triangle triangle1"></span><span class="triangle triangle2"></span> {t.pr_sub}</div>
+      <div class="h6 sub-title reveal"> {t.pr_sub}</div>
       <h2 class="reveal"><Fragment set:html={t.pr_h2} /></h2>
     </div>
     <ul class="nav reveal" role="tablist">

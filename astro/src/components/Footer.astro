@@ -6,8 +6,7 @@ import LangSwitch from "./LangSwitch.astro";
 const { t, email, lang = "en", base = "/" } = Astro.props;
 const nav = [[t.nav_home, base], [t.nav_services, `${base}#services`], [t.nav_pricing, `${base}#pricing`], [t.nav_faq, `${base}#faq`], [t.nav_contact, `${base}#contact`]];
 ---
-<footer class="footer-section-1 fix footer-bg bg-cover" style="background-image: url(/images/home-1/footer-shape.png);">
-  <span class="circle-shape"></span><span class="circle-shape-2"></span>
+<footer class="footer-section-1 fix footer-bg">
   <div class="auto-container">
     <div class="footer-newsletter-wrapper">
       <div class="footer-newsletter-left reveal">

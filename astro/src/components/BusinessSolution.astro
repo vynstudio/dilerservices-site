@@ -1,6 +1,5 @@
 ---
 import { Picture } from 'astro:assets';
-import img_home_1_dawn_2 from '../assets/home-1/dawn-2.png';
 import img_home_1_business_image_1 from '../assets/home-1/business-image-1.jpg';
 import img_home_1_business_image_2 from '../assets/home-1/business-image-2.jpg';
 const { t } = Astro.props;
@@ -10,10 +9,6 @@ const { t } = Astro.props;
 <div class="row g-0">
 <div class="col-xl-4 col-lg-4 reveal">
 <div class="feature-left-content-1">
-<div class="down-shape">
-<Picture src={img_home_1_dawn_2} formats={["avif","webp"]} alt="" loading="lazy" />
-</div>
-
 <h2 class="text-anim">{t.bs_h2}</h2>
 <div class="client-image"><span class="lang-chip">EN</span><span class="lang-chip">ES</span><span class="lang-chip">PT</span></div>
 <div class="h4">{t.bs_lang_title}</div>

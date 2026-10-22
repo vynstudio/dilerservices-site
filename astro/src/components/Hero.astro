@@ -1,23 +1,11 @@
 ---
 import { Picture } from 'astro:assets';
 import img_home_1_hero_hero_01 from '../assets/home-1/hero/hero-01.jpg';
-import img_home_1_shape_2 from '../assets/home-1/shape-2.png';
-import img_home_1_shape_1 from '../assets/home-1/shape-1.png';
-import img_home_1_shape_3 from '../assets/home-1/shape-3.png';
 const { t } = Astro.props;
 ---
 <section class="hero-section hero-1">
 <div class="hero-image">
 <Picture src={img_home_1_hero_hero_01} formats={["avif","webp"]} alt="Florida business owner ready to start an LLC" loading="eager" fetchpriority="high" widths={[480, 720, 960]} sizes="(max-width: 991px) 90vw, 46vw" />
-<div class="shape-2">
-<Picture src={img_home_1_shape_2} formats={["avif","webp"]} alt="" loading="lazy" />
-</div>
-</div>
-<div class="shape-1">
-<Picture src={img_home_1_shape_1} formats={["avif","webp"]} alt="" loading="lazy" />
-</div>
-<div class="shape-3">
-<Picture src={img_home_1_shape_3} formats={["avif","webp"]} alt="" loading="lazy" />
 </div>
 <div class="auto-container">
 <div class="row g-4">
