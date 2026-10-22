@@ -142,21 +142,21 @@ C = {
  "faqs": ([
    ("Are you a law firm?", "No. Diler Services is a fictitious name of Diler Dynamics Group LLC. We are not a law firm and we do not give legal or tax advice. We prepare and file documents as you direct."),
    ("Why are there two prices on every package?", "The first number is our service fee, the only amount we earn. The second is the Florida state fee, which we pass through at cost on a separate line."),
-   ("What does the yearly registered agent plan include?", "Registered Agent is $129 per year. We serve as your Florida registered agent and registered office, and log and forward mail the same business day. It includes 5 mail scans a year and annual report reminders at 90, 30, and 7 days."),
+   ("What does the yearly registered agent plan include?", "Registered Agent is $17.99 per month or $169 per year. We serve as your Florida registered agent and registered office, and log and forward mail the same business day. It includes 5 mail scans a year and annual report reminders at 90, 30, and 7 days."),
    ("What is Compliance Plus?", "Compliance Plus is $229 per year. It includes the registered agent service, and we file the annual report each year when you confirm your information. The state fee for that report, $138.75 for an LLC, is billed when it is filed."),
    ("Can you get an EIN?", "Yes. LLC Standard and LLC Premium include an EIN from the IRS. The IRS does not charge a fee for an EIN. Please do not send a Social Security number or ITIN through the website form."),
    ("What languages do you work in?", "English, Spanish, and Portuguese."),
   ], [
    ("¿Son un bufete de abogados?", "No. Diler Services es un nombre ficticio de Diler Dynamics Group LLC. No somos un bufete de abogados y no damos asesoría legal ni de impuestos. Preparamos y presentamos documentos según sus indicaciones."),
    ("¿Por qué cada paquete tiene dos precios?", "El primer número son nuestros honorarios, lo único que cobramos para nosotros. El segundo es la tarifa del estado de Florida, que pasamos al costo en una línea aparte."),
-   ("¿Qué incluye el plan anual de agente registrado?", "Registered Agent cuesta $129 al año. Somos su agente registrado y oficina registrada en Florida, y registramos y reenviamos el correo el mismo día hábil. Incluye 5 escaneos de correo al año y avisos del informe anual a los 90, 30 y 7 días."),
+   ("¿Qué incluye el plan anual de agente registrado?", "Registered Agent cuesta $17.99 al mes o $169 al año. Somos su agente registrado y oficina registrada en Florida, y registramos y reenviamos el correo el mismo día hábil. Incluye 5 escaneos de correo al año y avisos del informe anual a los 90, 30 y 7 días."),
    ("¿Qué es Compliance Plus?", "Compliance Plus cuesta $229 al año. Incluye el agente registrado, y presentamos el informe anual cada año cuando usted confirma sus datos. La tarifa del estado de ese informe, $138.75 para una LLC, se cobra cuando se presenta."),
    ("¿Pueden obtener un EIN?", "Sí. LLC Standard y LLC Premium incluyen un EIN del IRS. El IRS no cobra por el EIN. Por favor no envíe su número de Seguro Social ni ITIN por el formulario del sitio."),
    ("¿Qué idiomas atienden?", "Inglés, español y portugués."),
   ], [
    ("Vocês são um escritório de advocacia?", "Não. Diler Services é um nome fictício da Diler Dynamics Group LLC. Não somos um escritório de advocacia e não damos consultoria jurídica ou tributária. Preparamos e protocolamos documentos conforme você orienta."),
    ("Por que cada pacote tem dois preços?", "O primeiro número são nossos honorários, o único valor que ganhamos. O segundo é a taxa estadual da Flórida, repassada pelo custo em uma linha separada."),
-   ("O que inclui o plano anual de agente registrado?", "O Registered Agent custa $129 por ano. Somos seu agente registrado e escritório registrado na Flórida, e registramos e encaminhamos a correspondência no mesmo dia útil. Inclui 5 digitalizações por ano e avisos do relatório anual aos 90, 30 e 7 dias."),
+   ("O que inclui o plano anual de agente registrado?", "O Registered Agent custa $17.99 por mês ou $169 por ano. Somos seu agente registrado e escritório registrado na Flórida, e registramos e encaminhamos a correspondência no mesmo dia útil. Inclui 5 digitalizações por ano e avisos do relatório anual aos 90, 30 e 7 dias."),
    ("O que é o Compliance Plus?", "O Compliance Plus custa $229 por ano. Inclui o agente registrado, e protocolamos o relatório anual todo ano quando você confirma seus dados. A taxa estadual desse relatório, $138.75 para uma LLC, é cobrada quando ele é protocolado."),
    ("Vocês conseguem o EIN?", "Sim. O LLC Standard e o LLC Premium incluem um EIN do IRS. O IRS não cobra pelo EIN. Por favor, não envie número de Seguro Social nem ITIN pelo formulário do site."),
    ("Em quais idiomas vocês atendem?", "Inglês, espanhol e português."),
@@ -204,7 +204,7 @@ LLC = [
        ["Tudo do LLC Standard", "Protocolo no mesmo dia útil (não acelera o estado)", "Compliance Plus no primeiro ano", "Uma alteração no primeiro ano (taxa estadual à parte)", "Domínio e e-mail da empresa", "Chamada de início e arquivo digital"])),
 ]
 YEARLY = [
- dict(name="Registered Agent", fee="$129", rec=False,
+ dict(name="Registered Agent", fee="$169", monthly=("or $17.99 per month", "o $17.99 al mes", "ou $17.99 por mês"), rec=False,
   summary=("A Florida registered office, with mail forwarded the same business day.", "Oficina registrada en Florida, con el correo reenviado el mismo día hábil.", "Escritório registrado na Flórida, com correspondência encaminhada no mesmo dia útil."),
   sdet=("No state fee for the agent service itself", "Sin tarifa del estado por el servicio de agente", "Sem taxa estadual pelo serviço de agente"),
   inc=(["Florida registered agent and office address", "Mail logged and forwarded the same business day", "5 mail scans per year", "Annual report reminders at 90, 30, and 7 days", "Renews each year until you cancel"],

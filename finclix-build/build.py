@@ -135,7 +135,7 @@ def build(lang):
 
     # ---------- counters (all true numbers) ----------
     for box, (pre, n, suf, k) in zip(s.select(".counter-section .counter-box-1"),
-        [("$", 99, "", "c1"), ("$", 125, "", "c2"), ("$", 129, "", "c3"), ("", 1, "", "c4")]):
+        [("$", 99, "", "c1"), ("$", 125, "", "c2"), ("$", 169, "", "c3"), ("", 1, "", "c4")]):
         set_html(box.select_one("h2"), f'{pre}<span class="count-text" data-speed="2000" data-stop="{n}">0</span>{suf}')
         box.select_one("p").string = t(k)
 
@@ -208,7 +208,7 @@ def build(lang):
             proto = ul.select_one("li")
             has_icon = proto.find("div", class_="icon") is not None
             icon = str(proto.find("div", class_="icon")) if has_icon else ""
-            fee_line = (f'<li class="fee-line"><span class="fee-amt">{p["fee"]}</span> <span class="fee-lbl">{t("svc_fee")}{" " + t("per_year") if yearly else ""}</span></li>')
+            fee_line = (f'<li class="fee-line"><span class="fee-amt">{p["fee"]}</span> <span class="fee-lbl">{t("svc_fee")}{" " + t("per_year") if yearly else ""}</span>' + (f'<span class="fee-detail">{p["monthly"][i]}</span>' if p.get("monthly") else '') + '</li>')
             if yearly:
                 state_line = f'<li class="fee-line state-line"><span class="fee-detail">{p["sdet"][i]}</span></li>'
             else:
