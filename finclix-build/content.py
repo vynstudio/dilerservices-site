@@ -66,7 +66,7 @@ C = {
  "sv4_p": ("It is due between January 1 and May 1. We remind you, and on Compliance Plus we file it for you.", "Vence entre el 1 de enero y el 1 de mayo. Le avisamos y, con Compliance Plus, lo presentamos por usted.", "O prazo vai de 1º de janeiro a 1º de maio. Avisamos você e, no Compliance Plus, protocolamos por você."),
  # how it works (project slider)
  "hw_sub": ("How it works", "Cómo funciona", "Como funciona"),
- "hw_h2": ("Three steps from idea<br>to a filed Florida LLC", "Tres pasos de la idea<br>a una LLC presentada", "Três passos da ideia<br>a uma LLC protocolada"),
+ "hw_h2": ("Three steps from idea <br>to a filed Florida LLC", "Tres pasos de la idea <br>a una LLC presentada", "Três passos da ideia <br>a uma LLC protocolada"),
  "hw1_h": ("Tell us about it", "Cuéntenos", "Conte para nós"),
  "hw1_p": ("Name, owners, and package", "Nombre, dueños y paquete", "Nome, sócios e pacote"),
  "hw2_h": ("We file with Florida", "Presentamos en Florida", "Protocolamos na Flórida"),
@@ -165,7 +165,7 @@ C = {
  "cta_h3": ("Ready to file a Florida LLC?", "¿Listo para presentar su LLC en Florida?", "Pronto para protocolar sua LLC na Flórida?"),
  "cta_btn": ("Contact us", "Contáctenos", "Fale conosco"),
  # footer
- "ft_news_h3": ("Questions? Write to us<br>in your language", "¿Preguntas? Escríbanos<br>en su idioma", "Dúvidas? Escreva para nós<br>no seu idioma"),
+ "ft_news_h3": ("Questions? Write to us <br>in your language", "¿Preguntas? Escríbanos <br>en su idioma", "Dúvidas? Escreva para nós <br>no seu idioma"),
  "ft_about": ("Florida LLC formation, registered agent, EIN, and annual report filings. English, Spanish, and Portuguese.",
               "Formación de LLC, agente registrado, EIN e informe anual en Florida. Inglés, español y portugués.",
               "Formação de LLC, agente registrado, EIN e relatório anual na Flórida. Inglês, espanhol e português."),

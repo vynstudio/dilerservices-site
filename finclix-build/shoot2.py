@@ -8,6 +8,9 @@ async def main():
     pg=await b.new_page(viewport={'width':w,'height':900})
     await pg.goto(url,wait_until='networkidle'); await pg.wait_for_timeout(3000)
     H=await pg.evaluate('document.documentElement.scrollHeight')
+    for y in range(0,H,500):
+      await pg.evaluate(f'window.scrollTo(0,{y})'); await pg.wait_for_timeout(120)
+    await pg.wait_for_timeout(2000); await pg.evaluate('window.scrollTo(0,0)')
     await pg.set_viewport_size({'width':w,'height':H}); await pg.wait_for_timeout(4000)
     print(out, await pg.evaluate('[document.documentElement.scrollWidth, innerWidth]'))
     await pg.screenshot(path=out)

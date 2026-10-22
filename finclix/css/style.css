@@ -5307,28 +5307,28 @@ Section Title
     padding-top: 45px;
   }
 }
-.counter-box-1 h2 {
+.counter-box-1 :is(h2,.h2) {
   font-size: 96px;
   font-weight: 400;
   margin-bottom: 0;
 }
 @media (max-width: 1399.98px) {
-  .counter-box-1 h2 {
+  .counter-box-1 :is(h2,.h2) {
     font-size: 80px;
   }
 }
 @media (max-width: 991.98px) {
-  .counter-box-1 h2 {
+  .counter-box-1 :is(h2,.h2) {
     font-size: 60px;
   }
 }
 @media (max-width: 767.98px) {
-  .counter-box-1 h2 {
+  .counter-box-1 :is(h2,.h2) {
     font-size: 75px;
   }
 }
 @media (max-width: 575.98px) {
-  .counter-box-1 h2 {
+  .counter-box-1 :is(h2,.h2) {
     font-size: 60px;
   }
 }
@@ -5751,14 +5751,14 @@ Section Title
     gap: 40px;
   }
 }
-.lets-talk-banner-wrapper .lets-talk-banner-content .count-item .count-box h2 {
+.lets-talk-banner-wrapper .lets-talk-banner-content .count-item .count-box :is(h2,.h2) {
   font-weight: 500;
   font-size: 64px;
   color: var(--theme-color-white);
   line-height: 53%;
   margin-bottom: 20px;
 }
-[data-tm-layout=dark] .lets-talk-banner-wrapper .lets-talk-banner-content .count-item .count-box h2 {
+[data-tm-layout=dark] .lets-talk-banner-wrapper .lets-talk-banner-content .count-item .count-box :is(h2,.h2) {
   color: #ffffff;
 }
 .lets-talk-banner-wrapper .lets-talk-banner-content .count-item .count-box span {
@@ -6991,12 +6991,12 @@ Section Title
           align-items: center;
   gap: 15px;
 }
-.about-counter .count-box h2 {
+.about-counter .count-box :is(h2,.h2) {
   font-size: 96px;
   font-weight: 600;
 }
 @media (max-width: 575.98px) {
-  .about-counter .count-box h2 {
+  .about-counter .count-box :is(h2,.h2) {
     font-size: 60px;
   }
 }
@@ -7386,7 +7386,7 @@ Section Title
     padding-right: 0;
   }
 }
-.about-content-style-4 .about-icon-box .count-box h2 {
+.about-content-style-4 .about-icon-box .count-box :is(h2,.h2) {
   font-size: 120px;
   font-weight: 500;
   line-height: 1;
@@ -8021,7 +8021,7 @@ Section Title
           transform: rotateY(360deg);
 }
 
-.service-section .section-counter-content h3 {
+.service-section .section-counter-content :is(h3,.h3) {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #C8F169;
   font-size: 120px;
@@ -9854,7 +9854,7 @@ Section Title
   position: relative;
   text-align: center;
 }
-.counter-box-one h2 {
+.counter-box-one :is(h2,.h2) {
   font-size: 96px;
   font-weight: 400;
   margin-bottom: 0;
@@ -14786,14 +14786,14 @@ Section Title
     padding: 30px;
   }
 }
-.contact-image-1 .contact-info-box h2 {
+.contact-image-1 .contact-info-box :is(h2,.h2) {
   font-size: 36px;
   color: #fff;
   max-width: 322px;
   margin-bottom: 30px;
 }
 @media (max-width: 767.98px) {
-  .contact-image-1 .contact-info-box h2 {
+  .contact-image-1 .contact-info-box :is(h2,.h2) {
     font-size: 24px;
   }
 }

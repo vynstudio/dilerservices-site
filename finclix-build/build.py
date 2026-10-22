@@ -40,6 +40,78 @@ def text_only(el, txt):
     if not done:
         el.append(txt)
 
+EN_EXTRA_FAQ = [
+    ("Can I keep my home address off the public record?",
+     "Yes. The registered agent address can be the address on the record. Official mail comes to us, and we forward it to you."),
+    ("When is the Florida annual report due?",
+     "Florida requires every LLC to file a report each year. It's due between January 1 and May 1. We remind you and can file it for you."),
+    ("Do I need a Florida LLC operating agreement?",
+     "Florida doesn't make you file one. You still want one. It sets who owns what, who makes decisions, and what happens if someone leaves."),
+]
+SITE = "https://dilerservices.com"
+EN_TITLE = "Florida LLC Formation and Registered Agent | Diler Services"
+EN_DESC = ("Form a Florida LLC with clear steps and real help. Florida registered agent, EIN for your LLC, "
+           "Florida annual report, and a Florida LLC operating agreement.")
+
+def en_seo(s, faqs):
+    import json
+    head = s.head
+    s.title.string = EN_TITLE
+    head.select_one('meta[name="description"]')["content"] = EN_DESC
+    tags = [f'<link rel="canonical" href="{SITE}/">',
+            '<link rel="alternate" hreflang="x-default" href="' + SITE + '/">',
+            '<meta property="og:type" content="website">', '<meta property="og:site_name" content="Diler Services">',
+            '<meta property="og:locale" content="en_US">', '<meta property="og:locale:alternate" content="es_ES">',
+            '<meta property="og:locale:alternate" content="pt_BR">',
+            f'<meta property="og:title" content="{EN_TITLE}">', f'<meta property="og:description" content="{EN_DESC}">',
+            f'<meta property="og:url" content="{SITE}/">', f'<meta property="og:image" content="{SITE}/images/og.jpg">',
+            '<meta property="og:image:width" content="1200">', '<meta property="og:image:height" content="630">',
+            '<meta name="twitter:card" content="summary_large_image">',
+            f'<meta name="twitter:title" content="{EN_TITLE}">', f'<meta name="twitter:description" content="{EN_DESC}">',
+            f'<meta name="twitter:image" content="{SITE}/images/og.jpg">']
+    org = {"@context": "https://schema.org", "@type": "Organization", "@id": SITE + "/#org", "name": "Diler Services",
+           "url": SITE + "/", "email": "info@dilerservices.com", "logo": SITE + "/images/favicon.svg",
+           "areaServed": {"@type": "State", "name": "Florida"}, "knowsLanguage": ["en", "es", "pt"],
+           "description": EN_DESC}
+    def offer(name, price, desc, unit=None):
+        o = {"@type": "Offer", "name": name, "price": price, "priceCurrency": "USD", "description": desc,
+             "url": SITE + "/#pricing", "availability": "https://schema.org/InStock"}
+        if unit:
+            o["priceSpecification"] = {"@type": "UnitPriceSpecification", "price": price, "priceCurrency": "USD",
+                                       "unitCode": unit, "referenceQuantity": {"@type": "QuantitativeValue", "value": 1, "unitCode": unit}}
+        return o
+    prov = {"@id": SITE + "/#org"}
+    area = {"@type": "State", "name": "Florida"}
+    svc_llc = {"@context": "https://schema.org", "@type": "Service", "name": "Florida LLC formation",
+               "serviceType": "Florida business formation", "provider": prov, "areaServed": area,
+               "description": "We prepare and file your Florida LLC articles as you direct. Our service fee and the Florida state fee are shown separately.",
+               "offers": [offer("LLC Basic", "99.00", "Service fee. Florida state fee of $125 billed separately."),
+                          offer("LLC Standard", "229.00", "Service fee. Florida state fees of $130 billed separately."),
+                          offer("LLC Premium", "399.00", "Service fee. Florida state fees of $160 billed separately.")]}
+    svc_ra = {"@context": "https://schema.org", "@type": "Service", "name": "Florida registered agent",
+              "serviceType": "Registered agent service", "provider": prov, "areaServed": area,
+              "description": "A Florida registered agent and registered office, with official mail logged and forwarded the same business day.",
+              "offers": [offer("Registered Agent, monthly", "17.99", "Billed monthly.", "MON"),
+                         offer("Registered Agent, yearly", "169.00", "Billed yearly.", "ANN"),
+                         offer("Compliance Plus", "229.00", "Yearly. Annual report state fee billed separately.", "ANN"),
+                         offer("Compliance Premier", "399.00", "Yearly. State fees billed separately.", "ANN")]}
+    fp = {"@context": "https://schema.org", "@type": "FAQPage",
+          "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faqs]}
+    for d in (org, svc_llc, svc_ra, fp):
+        tags.append('<script type="application/ld+json">' + json.dumps(d, ensure_ascii=False) + '</script>')
+    for x in tags:
+        head.append(frag(x))
+    # decorative numbers and boxes are not document headings
+    for sel, cls in ((".count-box h2", "h2"), (".contact-info-box h2", "h3"), (".section-counter-content h3", "h3")):
+        for el in s.select(sel):
+            el.name = "div"; el["class"] = el.get("class", []) + ["h2" if el.parent and sel.endswith("h2") else cls]
+    alts = {".hero-image > img": "Florida business owner ready to start an LLC",
+            ".about-image img": "Small business team working together",
+            ".contact-image-1 > img": "Business owner"}
+    for sel, alt in alts.items():
+        el = s.select_one(sel)
+        if el: el["alt"] = alt
+
 def build(lang):
     i = LANGS.index(lang)
     t = lambda k: C[k][i]
@@ -254,7 +326,9 @@ def build(lang):
     fq.select_one(".faq-image .shape-2").decompose()  # template badge shows invented review counts
     box = fq.select_one("ul.accordion-box")
     blocks = box.select("li.accordion")
-    faqs = t("faqs")
+    faqs = list(t("faqs"))
+    if lang == "en":
+        faqs += EN_EXTRA_FAQ
     while len(blocks) < len(faqs):
         nb = copy.copy(blocks[-1]); blocks[-1].insert_after(nb); blocks.append(nb)
     for blk, (q, ans) in zip(blocks, faqs):
@@ -292,6 +366,9 @@ def build(lang):
     em.select_one("a")["href"] = f"mailto:{EMAIL}"; em.select_one("a").string = EMAIL
     set_html(cl, str(em))
     ft.select_one(".footer-bottom p").string = t("ft_copy")
+
+    if lang == "en":
+        en_seo(s, faqs)
 
     # absolute asset paths everywhere
     for tag in s.find_all(["img"]):
