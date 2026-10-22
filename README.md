@@ -9,6 +9,9 @@ Built on the VikingLab "Consult" template (licensed to dilerservices.com) with t
 
 Then open http://localhost:4322/
 
+All links and asset paths are relative, so the site also works from a subfolder such as GitHub Pages
+(https://vynstudio.github.io/dilerservices-site/). `.nojekyll` tells Pages to serve the files as they are.
+
 ## Brand
 
 The Meridian v2 identity (October 2026) is applied as an overlay so the template build and the `_gen/` pipeline stay intact:
