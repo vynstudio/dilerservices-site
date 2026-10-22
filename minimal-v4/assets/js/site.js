@@ -5,7 +5,7 @@
 
   function onScroll() {
     if (header) header.classList.toggle("is-stuck", window.scrollY > 8);
-    if (reduce) return;
+    if (reduce || window.innerWidth < 961) return;
     document.querySelectorAll("[data-parallax]").forEach(function (img) {
       var frame = img.closest(".frame, .close-photo");
       if (!frame) return;
@@ -33,10 +33,26 @@
   onScroll();
   window.addEventListener("scroll", onScroll, { passive: true });
 
+  var bar = document.querySelector("[data-sticky]");
+  function showBar() {
+    if (!bar || document.body.classList.contains("is-contact")) return;
+    if (menu && menu.open) {
+      bar.classList.remove("is-on");
+      return;
+    }
+    bar.classList.toggle("is-on", window.scrollY > 72);
+  }
+
   if (menu) {
     menu.addEventListener("toggle", function () {
       document.documentElement.style.overflow = menu.open ? "hidden" : "";
+      showBar();
     });
+  }
+
+  if (bar) {
+    showBar();
+    window.addEventListener("scroll", showBar, { passive: true });
   }
 
   var form = document.querySelector("[data-contact]");
@@ -76,7 +92,7 @@
     var data = new FormData(form);
     var subject = "Diler Services inquiry";
     var service = data.get("service");
-    if (service) subject += " — " + service;
+    if (service) subject += ": " + service;
     var body = [
       "Name: " + data.get("name"),
       "Email: " + data.get("email"),
