@@ -1,0 +1,7 @@
+# v5 is the site this branch publishes. Functions stay in test mode until live keys are added in the Netlify UI.
+[build]
+  publish = "v5"
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
