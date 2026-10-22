@@ -24,6 +24,7 @@
         var $settings = settings;
 
         var counterUpper = function() {
+            if ($this.data('counterup-nums')) { return; }
             if(!$this.data('counterupTo')) {
                 $this.data('counterupTo',$this.text());
             }
@@ -64,7 +65,7 @@
 
             // Updates the number until we're done
             var f = function() {
-                $this.text($this.data('counterup-nums').shift());
+                var q = $this.data('counterup-nums'); if (!q) { return; } $this.text(q.shift());
                 if ($this.data('counterup-nums').length) {
                     setTimeout($this.data('counterup-func'),delay);
                 } else {
