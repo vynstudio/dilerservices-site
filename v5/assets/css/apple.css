@@ -62,3 +62,48 @@ a:focus-visible,:focus-visible{outline:2px solid #0071e3;outline-offset:3px}
 .svc h3,.step h3,.co h3,article h3{font-weight:600;letter-spacing:-.02em}
 .hero .ui{text-align:left}
 @media (min-width:720px){.hero-grid{text-align:left}.hero-grid h1{font-size:clamp(44px,5.4vw,68px)}.hero-grid .hero-sub,.hero-grid .lede{margin-inline:0}.hero-grid .actions{justify-content:flex-start}}
+/* Hero v2: gradient + dots + optional photo (faint photo) */
+/* Photo: Ricardo Gomez Angel, unsplash.com/photos/9AdeEdYB2yk, Unsplash License */
+.hero2{position:relative;isolation:isolate;overflow:hidden;text-align:left;padding:56px 0 72px;background:radial-gradient(ellipse at 50% 40%,#fff 0%,#fff 35%,#f2f2f4 100%)}
+.hero2::after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background-image:radial-gradient(rgba(0,0,0,.07) 1px,transparent 1.2px);background-size:24px 24px;-webkit-mask-image:radial-gradient(ellipse at 50% 45%,transparent 30%,#000 85%);mask-image:radial-gradient(ellipse at 50% 45%,transparent 30%,#000 85%)}
+.hero-bg{position:absolute;inset:0;z-index:-2;background-size:cover;background-position:center;opacity:0;background-image:url("../img/hero-bg-800.webp");background-image:image-set(url("../img/hero-bg-800.avif") type("image/avif"),url("../img/hero-bg-800.webp") type("image/webp"))}
+@media (min-width:720px){.hero-bg{background-image:url("../img/hero-bg-1600.webp");background-image:image-set(url("../img/hero-bg-1600.avif") type("image/avif"),url("../img/hero-bg-1600.webp") type("image/webp"))}}
+.hero2-grid{display:grid;gap:40px;align-items:center}
+.hero2 h1{font-weight:700;letter-spacing:-.035em;line-height:1.02;font-size:clamp(42px,11vw,84px);color:#000;margin:0}
+.hero2 h1 span{display:block}
+.hero2-sub{margin-top:18px;font-size:clamp(18px,2.2vw,22px);line-height:1.4;color:#424245;max-width:30em}
+.hero2 .actions{justify-content:flex-start;margin-top:28px}
+.hero2 .actions .btn{flex:0 0 auto}
+@media (max-width:719px){.hero2 .actions .btn{flex:1 1 0}}
+.trust{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:22px;font-size:13px;color:#6e6e73}
+.trust li{display:flex;align-items:center;gap:6px}
+.tick{width:15px;height:15px;color:#1d1d1f;flex:0 0 auto}
+.status-card{background:#fff;border-radius:22px;padding:22px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 18px 48px rgba(0,0,0,.10);max-width:400px;width:100%;justify-self:center}
+.sc-head{display:flex;flex-direction:column;gap:2px;margin-bottom:16px}.sc-k{font-size:12px;color:#6e6e73;font-weight:600}.sc-head strong{font-size:17px}
+.sc-steps{display:grid;gap:4px}
+.sc-steps li{display:flex;align-items:center;gap:12px;padding:10px 12px;border-radius:12px;font-size:15px;color:#6e6e73}
+.sc-steps li.done{color:#1d1d1f}.sc-steps li.done .tick{width:20px;height:20px;padding:3px;border-radius:50%;background:#1d1d1f;color:#fff;stroke-width:2.2}
+.sc-steps li.now{background:#f5f5f7;color:#1d1d1f;font-weight:600}
+.sc-steps li i{width:20px;height:20px;border-radius:50%;border:1.5px solid #1d1d1f;position:relative;flex:0 0 auto}
+.sc-steps li i::after{content:"";position:absolute;inset:4px;border-radius:50%;background:#1d1d1f}
+.sc-steps li i.todo{border-color:#c7c7cc}.sc-steps li i.todo::after{display:none}
+.sc-steps em{margin-left:auto;font-style:normal;font-size:12px;font-weight:400;color:#6e6e73}
+.sc-note{margin-top:14px;font-size:12px;color:#86868b}
+@media (min-width:900px){.hero2{padding:110px 0 120px}.hero2-grid{grid-template-columns:1.2fr .8fr;gap:56px}.status-card{justify-self:end}}
+@media (prefers-reduced-motion:no-preference){
+ .status-card{animation:float 6s ease-in-out infinite}
+ .sc-steps li.now i::after{animation:pulse 1.6s ease-in-out infinite}
+ .ico-box{transition:transform .25s ease}
+ .svc:hover .ico-box{transform:translateY(-2px) scale(1.04)}
+}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(.7)}}
+/* Lucide icons */
+.ico-box{display:inline-flex;align-items:center;justify-content:center;width:48px;height:48px;border-radius:12px;background:#f2f2f4;color:#1d1d1f;margin-bottom:16px}
+.svc-grid .svc{background:#fff;border:1px solid #e8e8ed}
+.ico-box .ico{width:24px;height:24px;filter:none}
+svg.ico{fill:none}
+.ci{display:flex;align-items:center;gap:8px}.ci .ico{width:16px;height:16px}
+footer li.ci,.site-footer li.ci{display:flex!important;flex-wrap:nowrap;white-space:nowrap}
+.hero2 .hero-bg{opacity:.06}
+@media (min-width:900px){.hero2 h1{font-size:clamp(52px,5.2vw,72px)}.hero2 h1 span{white-space:nowrap}}
