@@ -1,0 +1,7 @@
+/* Orange test styling for contact-test preview */
+.btn-gold{background:linear-gradient(180deg,#FFB27A 0%,#FF8A3D 30%,#FA4616 100%)!important;border-color:#E03D10!important;color:#111!important;box-shadow:inset 0 1px 0 rgba(255,255,255,.55),0 6px 18px rgba(250,70,22,.28)}
+.btn-gold:hover{background:linear-gradient(180deg,#FFC08F 0%,#FF9550 30%,#FF5521 100%)!important;color:#000!important}
+.page-hero{position:relative;background:radial-gradient(ellipse 65% 70% at 18% 30%,rgba(255,138,61,.30) 0%,rgba(250,70,22,.10) 40%,rgba(255,210,168,.08) 62%,rgba(255,255,255,0) 85%),radial-gradient(ellipse 40% 55% at 88% 65%,rgba(255,210,168,.35),rgba(255,210,168,0) 70%)!important}
+.page-hero .form{background:rgba(255,255,255,.92)}
+.footer{position:relative}
+.footer::before{content:"";position:absolute;left:0;right:0;top:0;height:4px;background:linear-gradient(90deg,#FA4616,#FF8A3D 50%,#FFD2A8)}

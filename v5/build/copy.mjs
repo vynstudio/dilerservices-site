@@ -580,7 +580,7 @@ function contactPage() {
   };
   const copy = {
     en: { title: "Contact Diler Services | Lake Wales, FL", description: "Write to info@dilerservices.com or book a call. A short note is enough.", h1: "Write to us.", lede: "Tell us what you need. We read every note at info@dilerservices.com.", note: "Prefer to talk it through? Use Book a call when the calendar is connected, or send the note and we will find a time." },
-    es: { title: "Contacto | Diler Services", description: "Escriba a info@dilerservices.com o agende una llamada. Con una nota breve basta.", h1: "Escríbanos.", lede: "Cuéntenos qué necesita. Leemos cada nota en info@dilerservices.com.", note: "¿Prefiere hablarlo? Use Agendar una llamada cuando el calendario esté conectado, o envíe la nota y buscamos un momento." },
+    es: { title: "Contacto | Diler Services", description: "Escriba a info@dilerservices.com o agende una llamada. Con una nota breve basta.", h1: "Contacto e información", lede: "Cuéntenos qué necesita. Leemos cada nota en info@dilerservices.com.", note: "¿Prefiere hablarlo? Use Agendar una llamada cuando el calendario esté conectado, o envíe la nota y buscamos un momento." },
     pt: { title: "Contato | Diler Services", description: "Escreva para info@dilerservices.com ou marque uma ligação. Um recado curto já basta.", h1: "Escreva para nós.", lede: "Conte o que você precisa. Lemos cada recado em info@dilerservices.com.", note: "Prefere conversar? Use Marcar uma ligação quando o calendário estiver ligado, ou envie o recado e achamos um horário." },
   };
   return simple("contact.html", "contact", Object.fromEntries(["en", "es", "pt"].map((lang) => [lang, {
