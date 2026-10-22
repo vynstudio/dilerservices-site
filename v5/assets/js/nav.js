@@ -7,28 +7,61 @@
 
   var toggle = document.querySelector("[data-nav-toggle]");
   var panel = document.querySelector("[data-nav-panel]");
+  var langRoots = document.querySelectorAll("[data-lang]");
 
-  function setOpen(open) {
+  function setNav(open) {
     if (!panel || !toggle) return;
     panel.hidden = !open;
     toggle.setAttribute("aria-expanded", open ? "true" : "false");
     document.body.classList.toggle("nav-open", open);
   }
 
+  function closeLang() {
+    langRoots.forEach(function (root) {
+      var button = root.querySelector("[data-lang-toggle]");
+      var list = root.querySelector("[data-lang-list]");
+      if (list) list.hidden = true;
+      if (button) button.setAttribute("aria-expanded", "false");
+    });
+  }
+
   if (toggle && panel) {
-    setOpen(false);
+    setNav(false);
     toggle.addEventListener("click", function () {
-      setOpen(panel.hidden);
+      var open = panel.hidden;
+      closeLang();
+      setNav(open);
     });
     panel.querySelectorAll("a").forEach(function (link) {
       link.addEventListener("click", function () {
-        setOpen(false);
+        setNav(false);
       });
     });
-    document.addEventListener("keydown", function (event) {
-      if (event.key === "Escape") setOpen(false);
-    });
   }
+
+  langRoots.forEach(function (root) {
+    var button = root.querySelector("[data-lang-toggle]");
+    var list = root.querySelector("[data-lang-list]");
+    if (!button || !list) return;
+    button.addEventListener("click", function (event) {
+      event.stopPropagation();
+      var open = list.hidden;
+      closeLang();
+      list.hidden = !open;
+      button.setAttribute("aria-expanded", open ? "true" : "false");
+    });
+  });
+
+  document.addEventListener("click", function () {
+    closeLang();
+  });
+
+  document.addEventListener("keydown", function (event) {
+    if (event.key === "Escape") {
+      closeLang();
+      setNav(false);
+    }
+  });
 
   document.querySelectorAll("[data-book-call]").forEach(function (link) {
     if (BOOK_CALL_URL.indexOf("http") === 0) {
