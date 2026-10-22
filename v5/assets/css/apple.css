@@ -1,16 +1,18 @@
+@font-face{font-family:"Inter var";src:url("../fonts/inter-var.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap}
 /* Apple-style mono layer: mobile-first (390px), then desktop */
 :root{--ink:#1d1d1f;--paper:#fff;--warm:#f5f5f7;--soft:#f5f5f7;--navy:#1d1d1f;--navy-hover:#e8e8ed;--navy-press:#000;--navy-line:#d2d2d7;--muted:#6e6e73;--line:#d2d2d7;--header:52px;--wrap:980px;
---sans:-apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue",Helvetica,Arial,sans-serif;--display:-apple-system,BlinkMacSystemFont,"SF Pro Display","Helvetica Neue",Helvetica,Arial,sans-serif}
+--sans:"Inter var",Inter,-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;--display:"Inter var",Inter,-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif}
 html,body{overflow-x:clip;max-width:100%}
-body{font-size:17px;line-height:1.47;letter-spacing:-.022em;color:var(--ink);background:#fff}
+body{font-size:17px;line-height:1.47;letter-spacing:-.011em;font-weight:400;color:var(--ink);background:#fff}
+body *{font-family:var(--sans)}
 .wrap{width:min(var(--wrap),calc(100% - 44px))}
 .section{padding:80px 0}
 .section-warm{background:#f5f5f7}.section-light{background:#fff}
-h1,h2,h3,.h-display{font-family:var(--display);font-weight:600;letter-spacing:-.03em;line-height:1.07;color:#1d1d1f}
+h1,h2,h3,.h-display{font-family:var(--display);font-weight:700;letter-spacing:-.03em;line-height:1.07;color:#1d1d1f}
 h1{font-size:clamp(40px,9vw,80px);max-width:none}
 h2{font-size:clamp(32px,7.2vw,56px)}
-h3{font-size:21px;line-height:1.19;letter-spacing:-.02em}
-.hero-sub{font-family:var(--display);font-weight:500;font-size:clamp(21px,4.4vw,28px);color:#6e6e73;letter-spacing:-.02em;max-width:22em}
+h3{font-size:21px;line-height:1.19;letter-spacing:-.02em;font-weight:600}
+.hero-sub{font-family:var(--display);font-weight:600;font-size:clamp(21px,4.4vw,28px);color:#6e6e73;letter-spacing:-.02em;max-width:22em}
 .lede,.copy p,.quiet,.disclaimer{color:#6e6e73}
 .lede{font-size:clamp(17px,2.4vw,21px);line-height:1.4}
 .kicker,.h1-eye{color:#6e6e73;font-size:14px;font-weight:600;letter-spacing:0;text-transform:none}
@@ -57,3 +59,6 @@ a:focus-visible,:focus-visible{outline:2px solid #0071e3;outline-offset:3px}
 }
 @media (min-width:720px){.section{padding:120px 0}.hero{padding:120px 0 96px}}
 @media (min-width:1068px){.section{padding:140px 0}}
+.svc h3,.step h3,.co h3,article h3{font-weight:600;letter-spacing:-.02em}
+.hero .ui{text-align:left}
+@media (min-width:720px){.hero-grid{text-align:left}.hero-grid h1{font-size:clamp(44px,5.4vw,68px)}.hero-grid .hero-sub,.hero-grid .lede{margin-inline:0}.hero-grid .actions{justify-content:flex-start}}
