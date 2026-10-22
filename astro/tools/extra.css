@@ -29,3 +29,26 @@ html body .pricing-section::after,html body .faq-section::after{background:url("
 @media(max-width:767px){html body .hero-1::after{opacity:.5}html body .pricing-section::after,html body .faq-section::after{display:none}}
 
 .why-choose-us-image-1 img{display:block;width:100%;border-radius:24px;-webkit-mask:none!important;mask:none!important}
+/* contact rework */
+.ds-contact{background:#144443;padding:110px 0}
+.ds-contact-grid{display:grid;grid-template-columns:1fr 1.05fr;gap:64px;align-items:center}
+.ds-contact .sub-title{color:#C8F169!important;margin-bottom:14px}
+.ds-contact h2{color:#fff;margin-bottom:18px}
+.ds-contact-lead{color:rgba(255,255,255,.82);font-size:17px;line-height:1.6;margin-bottom:30px;max-width:460px}
+.ds-contact-facts{list-style:none;padding:0;margin:0;display:grid;gap:16px}
+.ds-contact-facts li{display:flex;align-items:center;gap:14px;color:#fff;font-size:16px}
+.ds-contact-facts svg{flex:0 0 40px;width:40px;height:40px;padding:10px;border-radius:50%;background:rgba(200,241,105,.14);color:#C8F169}
+.ds-contact-facts a{color:#fff;text-decoration:underline;text-decoration-color:rgba(200,241,105,.6);text-underline-offset:4px;text-transform:none}
+.ds-contact-facts a:hover{color:#C8F169}
+.ds-contact-card{background:#fff;border-radius:24px;padding:40px;box-shadow:0 24px 60px rgba(0,0,0,.18)}
+.ds-field{margin-bottom:18px}
+.ds-field label{display:block;font-weight:600;font-size:14px;color:#144443;margin-bottom:8px}
+.ds-field input,.ds-field textarea{width:100%;border:1px solid #d5dedd;border-radius:12px;padding:13px 16px;font-size:16px;color:#144443;background:#fff;outline:none;transition:border-color .2s,box-shadow .2s}
+.ds-field textarea{resize:vertical;min-height:130px}
+.ds-field input:focus,.ds-field textarea:focus{border-color:#144443;box-shadow:0 0 0 3px rgba(200,241,105,.55)}
+.ds-field small{display:block;margin-top:6px;font-size:13px;color:#5b6b6a}
+.ds-contact-btn{width:100%;border:0;border-radius:50px;background:#C8F169;color:#144443;font-weight:600;font-size:16px;padding:16px 24px;cursor:pointer;transition:background .2s}
+.ds-contact-btn:hover{background:#b6e24f}
+.ds-contact-btn:focus-visible{outline:3px solid #144443;outline-offset:3px}
+@media(max-width:991px){.ds-contact{padding:80px 0}.ds-contact-grid{grid-template-columns:1fr;gap:40px}}
+@media(max-width:575px){.ds-contact{padding:64px 0}.ds-contact-card{padding:24px 20px;border-radius:20px}}
