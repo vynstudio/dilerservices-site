@@ -2,8 +2,10 @@
   /* TODO: replace with the Google Calendar appointment page URL. */
   var BOOK_CALL_URL = "TODO";
 
-  /* TODO: point Start an LLC at the LLC service page once it exists. */
-  var START_LLC_URL = "#start";
+  /* Path from this page back to the current language folder. Set on the script tag. */
+  var rootTag = document.querySelector("script[data-root]");
+  var SITE_ROOT = rootTag ? rootTag.getAttribute("data-root") || "" : "";
+  var START_LLC_URL = SITE_ROOT + "services/llc.html";
 
   var toggle = document.querySelector("[data-nav-toggle]");
   var panel = document.querySelector("[data-nav-panel]");
