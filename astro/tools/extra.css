@@ -20,3 +20,11 @@ a[href^="mailto:"]{text-transform:none!important}
 .hero-1::before,.hero-1::after,.hero-1 .hero-image::before,.hero-1 .hero-image::after,.business-solution-section::before,.business-solution-section::after,.feature-left-content-1::before,.feature-left-content-1::after,.service-section::before,.service-section::after,.why-choose-section::before,.why-choose-section::after,.pricing-section::before,.pricing-section::after,.faq-section::before,.faq-section::after,.footer-section-1::before,.footer-section-1::after,.counter-box::before,.counter-box::after,.project-section::before,.project-section::after,.contact-section::before,.contact-section::after{content:none!important;background:none!important}
 .sec-title .sub-title,.sub-title{padding-left:0!important}
 .sub-title::before,.sub-title::after{content:none!important}
+
+/* vector option A: self-authored SVG */
+.hero-1,.pricing-section,.faq-section{position:relative;isolation:isolate}
+html body .hero-1::after,html body .pricing-section::after,html body .faq-section::after{content:""!important;position:absolute;z-index:-1;pointer-events:none}
+html body .hero-1::after{background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32'%3E%3Cpath d='M32 0H0V32' fill='none' stroke='%23144443' stroke-opacity='.09' stroke-width='1'/%3E%3C/svg%3E")!important;-webkit-mask:radial-gradient(ellipse 60% 70% at 28% 45%,#000 0,transparent 75%)!important;mask:radial-gradient(ellipse 60% 70% at 28% 45%,#000 0,transparent 75%)!important;inset:0!important}
+html body .pricing-section::after,html body .faq-section::after{background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22'%3E%3Ccircle cx='2' cy='2' r='1.3' fill='%23144443' fill-opacity='.16'/%3E%3C/svg%3E")!important;-webkit-mask:linear-gradient(135deg,#000,transparent 45%)!important;mask:linear-gradient(135deg,#000,transparent 45%)!important;inset:0!important}
+@media(max-width:767px){html body .hero-1::after{opacity:.5}html body .pricing-section::after,html body .faq-section::after{display:none}}
+
