@@ -1,6 +1,7 @@
 ---
 import { Picture } from 'astro:assets';
 import img_home_1_hero_hero_01 from '../assets/home-1/hero/hero-01.jpg';
+import Icon from './Icon.astro';
 const { t } = Astro.props;
 ---
 <section class="hero-section hero-1">
@@ -12,11 +13,7 @@ const { t } = Astro.props;
 <div class="col-xl-6 col-lg-12">
 <div class="hero-content">
 <div class="h6">
-<span class="icon">
-<svg fill="none" height="30" viewBox="0 0 30 30" width="30" xmlns="http://www.w3.org/2000/svg">
-<path d="M15 12.5H23.75L10 27.5L13.75 16.25H6.25L16.25 2.5L15 12.5Z" fill="white"></path>
-</svg>
-</span> {t.hero_kicker} </div>
+<span class="ds-kicker-ico"><Icon name="zap" /></span> {t.hero_kicker} </div>
 <h1 class="">{t.hero_h1}</h1>
 <p class="">{t.hero_p}</p>
 <div class="hero-button">

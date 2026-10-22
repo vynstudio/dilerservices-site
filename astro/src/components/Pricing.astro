@@ -1,8 +1,5 @@
 ---
-import { Picture, Image } from "astro:assets";
-import check from "../assets/home-1/check-mark.png";
-import headLogo from "../assets/home-1/pricing-head-logo.png";
-import headLogoDark from "../assets/home-1/pricing-head-logo-dark.png";
+import Icon from "./Icon.astro";
 const { t, base = "/" } = Astro.props;
 const tabs = [["llc", t.pr_tab1, t.llc, false], ["yearly", t.pr_tab2, t.yearly, true]];
 ---
@@ -24,9 +21,8 @@ const tabs = [["llc", t.pr_tab1, t.llc, false], ["yearly", t.pr_tab2, t.yearly, 
             {plans.map((p) => (
               <div class="col-xl-4 col-lg-6 col-md-6 reveal">
                 <div class:list={["pricing-box-items", { active: p.rec }]}>
-                  {p.rec && <span class="gt-price-tag">{t.recommended}</span>}
+                  {p.rec && <span class="ds-rec">{t.recommended}</span>}
                   <div class="pricing-header">
-                    <div class="title-icon"><Picture src={p.rec ? headLogoDark : headLogo} formats={["avif", "webp"]} alt="" loading="lazy" /></div>
                     <h3>{p.name}</h3>
                     <span>{p.summary}</span>
                   </div>
@@ -39,7 +35,7 @@ const tabs = [["llc", t.pr_tab1, t.llc, false], ["yearly", t.pr_tab2, t.yearly, 
                       ? <li class="fee-line state-line"><span class="fee-amt small">+ {p.state}</span> <span class="fee-lbl">{t.state_fee}</span><span class="fee-detail">{p.sdet}</span></li>
                       : <li class="fee-line state-line"><span class="fee-detail">{p.sdet}</span></li>}
                     {p.inc.map((x) => (
-                      <li>{!p.rec && <div class="icon"><Image src={check} alt="" format="webp" /></div>}{x}</li>
+                      <li><span class="ds-pcheck"><Icon name="check" /></span>{x}</li>
                     ))}
                   </ul>
                   <div class="pricing-button"><a class="theme-btn btn-style-one w-100" href={`${base}#contact`}>{t.choose} {p.name}</a></div>

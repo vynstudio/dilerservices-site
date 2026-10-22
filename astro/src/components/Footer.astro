@@ -1,6 +1,5 @@
 ---
-import { Picture } from "astro:assets";
-import emailIcon from "../assets/home-1/email.png";
+import Icon from "./Icon.astro";
 import Logo from "./Logo.astro";
 import LangSwitch from "./LangSwitch.astro";
 const { t, email, lang = "en", base = "/" } = Astro.props;
@@ -10,12 +9,12 @@ const nav = [[t.nav_home, base], [t.nav_services, `${base}#services`], [t.nav_pr
   <div class="auto-container">
     <div class="footer-newsletter-wrapper">
       <div class="footer-newsletter-left reveal">
-        <div class="icon"><Picture src={emailIcon} formats={["avif", "webp"]} alt="" loading="lazy" /></div>
+        <span class="ds-ico-sq"><Icon name="envelope" /></span>
         <h2 class="h3 text-white font-weight-700 font-size-28"><Fragment set:html={t.ft_news_h3} /></h2>
       </div>
       <a class="footer-mail reveal" href={`mailto:${email}`}>
         <span class="form-clt"><span class="footer-mail-text">{email}</span>
-          <span class="arrow-icon"><svg fill="none" height="13" viewBox="0 0 25 13" width="25" aria-hidden="true"><path d="M24.168 6.50032H0.834642M24.168 6.50032L18.3346 0.666992M24.168 6.50032L18.3346 12.3337" stroke="white" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
+          <span class="arrow-icon"><Icon name="arrow" /></span>
         </span>
       </a>
     </div>
@@ -39,10 +38,10 @@ const nav = [[t.nav_home, base], [t.nav_services, `${base}#services`], [t.nav_pr
             <ul class="user-links">{t.mq.slice(0, 4).map((x) => <li><a href={`${base}#pricing`}>{x}</a></li>)}</ul>
           </div>
         </div>
-        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 reveal">
+        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 reveal">
           <div class="footer-widget-items mt-30">
             <div class="widget-title mb-25"><h3 class="font-size-24 text-white font-weight-500">{t.ft_contact}</h3></div>
-            <ul class="contact-list"><li><img src="/images/home-1/email-svg.svg" alt="" width="20" height="20" /><p><a href={`mailto:${email}`}>{email}</a></p></li></ul>
+            <ul class="contact-list"><li><Icon name="envelope" class="ds-foot-ico" /><p><a href={`mailto:${email}`}>{email}</a></p></li></ul>
           </div>
         </div>
       </div>

@@ -1,108 +1,25 @@
 ---
 import { Picture } from 'astro:assets';
-import img_home_1_project_project_01 from '../assets/home-1/project/project-01.jpg';
-import img_home_1_project_project_02 from '../assets/home-1/project/project-02.jpg';
-import img_home_1_project_project_03 from '../assets/home-1/project/project-03.jpg';
+import s1 from '../assets/step-1.jpg';
+import s2 from '../assets/step-2.jpg';
+import s3 from '../assets/step-3.jpg';
+import Icon from './Icon.astro';
 const { t } = Astro.props;
+const steps = [[s1, "Person working on a laptop in an office", t.hw1_h, t.hw1_p], [s2, "Two people signing a document at a desk", t.hw2_h, t.hw2_p], [s3, "Business owner smiling at her desk", t.hw3_h, t.hw3_p]];
 ---
-<section class="project-section fix section-padding">
-
-
+<section class="ds-steps section-padding">
 <div class="auto-container">
-<div class="sec-title">
-<div class="row g-4 justify-content-between align-items-end">
-<div class="col-lg-7">
-<div class="h6 sub-title reveal"> {t.hw_sub} </div>
+<div class="h6 sub-title reveal">{t.hw_sub}</div>
 <h2 class="reveal"><Fragment set:html={t.hw_h2} /></h2>
+<div class="ds-steps-grid">{steps.map(([img, alt, h, p], i) => (
+<article class="ds-step reveal">
+<div class="ds-photo ds-step-photo"><Picture src={img} formats={["avif","webp"]} widths={[400,640,800]} sizes="(max-width: 991px) 100vw, 400px" alt={alt} loading="lazy" /></div>
+<div class="ds-step-body">
+<span class="ds-step-n">Step 0{i + 1}</span>
+<h3>{h}</h3>
+<p>{p}</p>
+<a class="ds-step-btn" href="/#contact" aria-label={h}><Icon name="arrow" /></a>
 </div>
-</div>
-</div>
-<div class="project-wrapper">
-<div class="project-slider fix">
-<div class="project-track">
-<div class="project-slide">
-<div class="project-card-items">
-<div class="project-image">
-<Picture src={img_home_1_project_project_01} formats={["avif","webp"]} alt="" loading="lazy" />
-
-<span class="number">01</span>
-</div>
-<div class="project-content">
-
-<div class="content">
-<h3><a href="/#contact">{t.hw1_h}</a></h3>
-<p>{t.hw1_p}</p>
-</div>
-<a aria-label={t.hw1_h} class="icon" href="/#contact">
-<svg fill="none" height="23" viewBox="0 0 23 23" width="23" xmlns="http://www.w3.org/2000/svg">
-<defs>
-<linearGradient gradientUnits="userSpaceOnUse" id="paint0_linear_1_17562" x1="21.213" x2="1.32146" y1="0.34721" y2="21.6783">
-<stop offset="0" stop-color="#C8F169"></stop>
-<stop offset="1" stop-color="#60BFAA"></stop>
-</linearGradient>
-</defs>
-<path d="M4.97787 1.79852C4.95379 1.10859 5.49347 0.529841 6.18341 0.505735L20.317 0.012217C21.0069 0 21.5857 0.527811 21.6098 1.21776L22.1033 15.3513C22.1274 16.0412 21.5877 16.62 20.8978 16.6441C20.2078 16.6682 19.6291 16.1285 19.605 15.4385L19.2166 4.32098L3.08817 21.6166C2.61735 22.1215 1.82635 22.1491 1.32148 21.6783C0.816598 21.2075 0.788964 20.4165 1.25978 19.9116L17.3882 2.61599L6.27073 3.00414C5.58079 3.02824 5.00195 2.48846 4.97787 1.79852Z" fill="url(#paint0_linear_1_1756)"></path>
-</svg>
-</a>
-</div>
-</div>
-</div>
-<div class="project-slide">
-<div class="project-card-items">
-<div class="project-image">
-<Picture src={img_home_1_project_project_02} formats={["avif","webp"]} alt="" loading="lazy" />
-
-<span class="number">02</span>
-</div>
-<div class="project-content">
-
-<div class="content">
-<h3><a href="/#contact">{t.hw2_h}</a></h3>
-<p>{t.hw2_p}</p>
-</div>
-<a aria-label={t.hw2_h} class="icon" href="/#contact">
-<svg fill="none" height="23" viewBox="0 0 23 23" width="23" xmlns="http://www.w3.org/2000/svg">
-<defs>
-<linearGradient gradientUnits="userSpaceOnUse" id="paint0_linear_1_17561" x1="21.213" x2="1.32146" y1="0.34721" y2="21.6783">
-<stop offset="0" stop-color="#C8F169"></stop>
-<stop offset="1" stop-color="#60BFAA"></stop>
-</linearGradient>
-</defs>
-<path d="M4.97787 1.79852C4.95379 1.10859 5.49347 0.529841 6.18341 0.505735L20.317 0.012217C21.0069 0 21.5857 0.527811 21.6098 1.21776L22.1033 15.3513C22.1274 16.0412 21.5877 16.62 20.8978 16.6441C20.2078 16.6682 19.6291 16.1285 19.605 15.4385L19.2166 4.32098L3.08817 21.6166C2.61735 22.1215 1.82635 22.1491 1.32148 21.6783C0.816598 21.2075 0.788964 20.4165 1.25978 19.9116L17.3882 2.61599L6.27073 3.00414C5.58079 3.02824 5.00195 2.48846 4.97787 1.79852Z" fill="url(#paint0_linear_1_1756)"></path>
-</svg>
-</a>
-</div>
-</div>
-</div>
-<div class="project-slide">
-<div class="project-card-items">
-<div class="project-image">
-<Picture src={img_home_1_project_project_03} formats={["avif","webp"]} alt="" loading="lazy" />
-
-<span class="number">03</span>
-</div>
-<div class="project-content">
-
-<div class="content">
-<h3><a href="/#contact">{t.hw3_h}</a></h3>
-<p>{t.hw3_p}</p>
-</div>
-<a aria-label={t.hw3_h} class="icon" href="/#contact">
-<svg fill="none" height="23" viewBox="0 0 23 23" width="23" xmlns="http://www.w3.org/2000/svg">
-<defs>
-<linearGradient gradientUnits="userSpaceOnUse" id="paint0_linear_1_1756" x1="21.213" x2="1.32146" y1="0.34721" y2="21.6783">
-<stop offset="0" stop-color="#C8F169"></stop>
-<stop offset="1" stop-color="#60BFAA"></stop>
-</linearGradient>
-</defs>
-<path d="M4.97787 1.79852C4.95379 1.10859 5.49347 0.529841 6.18341 0.505735L20.317 0.012217C21.0069 0 21.5857 0.527811 21.6098 1.21776L22.1033 15.3513C22.1274 16.0412 21.5877 16.62 20.8978 16.6441C20.2078 16.6682 19.6291 16.1285 19.605 15.4385L19.2166 4.32098L3.08817 21.6166C2.61735 22.1215 1.82635 22.1491 1.32148 21.6783C0.816598 21.2075 0.788964 20.4165 1.25978 19.9116L17.3882 2.61599L6.27073 3.00414C5.58079 3.02824 5.00195 2.48846 4.97787 1.79852Z" fill="url(#paint0_linear_1_1756)"></path>
-</svg>
-</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
+</article>))}</div>
 </div>
 </section>

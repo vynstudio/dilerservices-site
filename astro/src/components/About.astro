@@ -1,70 +1,22 @@
 ---
 import { Picture } from 'astro:assets';
-import img_home_1_about_about_image from '../assets/home-1/about/about-image.jpg';
+import aboutImg from '../assets/home-1/about/about-image.jpg';
+import Icon from './Icon.astro';
 const { t } = Astro.props;
+const list = [t.ab_l1, t.ab_l2, t.ab_l3, t.ab_l4];
 ---
-<section class="about-section section-padding" id="about">
-
-
-
+<section class="ds-about section-padding" id="about">
 <div class="auto-container">
-<div class="row g-4 align-items-center">
-<div class="col-lg-6">
-<div class="about-image-1 reveal">
-<Picture src={img_home_1_about_about_image} formats={["avif","webp"]} alt="" loading="lazy" />
+<div class="ds-about-grid">
+<div class="ds-photo reveal">
+<Picture src={aboutImg} formats={["avif","webp"]} widths={[480,720,960]} sizes="(max-width: 991px) 100vw, 560px" alt="Team reviewing documents at a laptop" loading="lazy" />
 </div>
-</div>
-<div class="col-lg-6">
-<div class="about-content-1">
-<div class="sec-title mb-0">
-<div class="h6 sub-title reveal"> {t.ab_sub} </div>
+<div class="ds-about-copy">
+<div class="h6 sub-title reveal">{t.ab_sub}</div>
 <h2 class="reveal">{t.ab_h2}</h2>
-</div>
-<div class="icon-items reveal">
-<div class="icon">
-<img alt="" src="/images/home-1/about/icon-1.svg"/>
-</div>
-<p>{t.ab_icon_p}</p>
-</div>
-<p class="about-text reveal">{t.ab_text}</p>
-<div class="about-list-items">
-<ul class="about-list reveal">
-<li>
-<span class="icon">
-<img alt="" src="/images/home-1/about/check.svg"/>
-</span> {t.ab_l1} </li>
-<li>
-<span class="icon">
-<img alt="" src="/images/home-1/about/check.svg"/>
-</span> {t.ab_l2} </li>
-<li>
-<span class="icon">
-<img alt="" src="/images/home-1/about/check.svg"/>
-</span> {t.ab_l3} </li>
-<li>
-<span class="icon">
-<img alt="" src="/images/home-1/about/check.svg"/>
-</span> {t.ab_l4} </li>
-</ul>
-<div class="counter-box bg-cover reveal">
-
-<div class="count-box">
-<div class="h2"><span class="count-text">3</span></div>
-</div>
-<div class="counter-bottom">
-<p>{t.ab_count_lbl}</p>
-<div class="icon">
-<svg class="animated-svg" fill="none" height="60" viewBox="0 0 60 60" width="60" xmlns="http://www.w3.org/2000/svg">
-<path d="M30 29.6541L41.0281 18.626" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"></path>
-<path d="M55.7315 11.274H48.3794V3.92188L41.0273 11.274V18.6261H48.3794L55.7315 11.274Z" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"></path>
-<path d="M30.0008 40.6823C36.0915 40.6823 41.0289 35.7448 41.0289 29.6541C41.0289 23.5634 36.0915 18.626 30.0008 18.626C23.9101 18.626 18.9727 23.5634 18.9727 29.6541C18.9727 35.7448 23.9101 40.6823 30.0008 40.6823Z" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"></path>
-<path d="M50.218 16.7879C52.6074 20.4639 53.8941 24.8752 53.8941 29.6541C53.8941 42.8878 43.2335 53.5484 29.9998 53.5484C16.766 53.5484 6.10547 42.8878 6.10547 29.6541C6.10547 16.4203 16.766 5.75977 29.9998 5.75977C34.7786 5.75977 39.1899 7.04638 42.8659 9.43581" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"></path>
-</svg>
-</div>
-</div>
-</div>
-</div>
-</div>
+<p class="ds-about-lead reveal"><span class="ds-ico-sq"><Icon name="file" /></span>{t.ab_icon_p}</p>
+<p class="ds-about-text reveal">{t.ab_text}</p>
+<ul class="ds-check reveal">{list.map((x) => <li><img alt="" src="/images/home-1/about/check.svg" width="22" height="22" />{x}</li>)}</ul>
 </div>
 </div>
 </div>

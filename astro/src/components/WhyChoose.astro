@@ -20,10 +20,7 @@ const { t } = Astro.props;
 </div>
 <ul class="nav">
 <li class="nav-item reveal">
-<a class="nav-link active" data-tab="#fees" href="#fees">{t.wc_tabs[0]}</a>
-</li>
-<li class="nav-item reveal">
-<a class="nav-link" data-tab="#language" href="#language">{t.wc_tabs[1]}</a>
+<a class="nav-link active" data-tab="#language" href="#language">{t.wc_tabs[1]}</a>
 </li>
 <li class="nav-item reveal">
 <a class="nav-link" data-tab="#direct" href="#direct">{t.wc_tabs[2]}</a>
@@ -33,33 +30,7 @@ const { t } = Astro.props;
 </li>
 </ul>
 <div class="tab-content">
-<div class="tab-pane fade show active" id="fees">
-<div class="why-choose-list reveal">
-<h3>{t.wc_tabs[0]}</h3>
-<p>{t.wc_p[0]}</p>
-</div>
-<div class="why-choose-list-items">
-<ul class="why-list reveal">
-<li>
-<span class="icon">
-<img alt="" src="/images/home-1/about/check.svg"/>
-</span> {t.wc_list[0][0]} </li>
-<li>
-<span class="icon">
-<img alt="" src="/images/home-1/about/check.svg"/>
-</span> {t.wc_list[0][1]} </li>
-<li>
-<span class="icon">
-<img alt="" src="/images/home-1/about/check.svg"/>
-</span> {t.wc_list[0][2]} </li>
-<li>
-<span class="icon">
-<img alt="" src="/images/home-1/about/check.svg"/>
-</span> {t.wc_badge} </li>
-</ul>
-</div>
-</div>
-<div class="tab-pane fade" id="language">
+<div class="tab-pane fade show active" id="language">
 <div class="why-choose-list">
 <h3>{t.bs_lang_title}</h3>
 <p>{t.wc_p[1]}</p>
@@ -78,6 +49,10 @@ const { t } = Astro.props;
 <span class="icon">
 <img alt="" src="/images/home-1/about/check.svg"/>
 </span> {t.wc_list[1][2]} </li>
+<li>
+<span class="icon">
+<img alt="" src="/images/home-1/about/check.svg"/>
+</span> {t.wc_badge} </li>
 </ul>
 </div>
 </div>
