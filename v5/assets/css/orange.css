@@ -42,6 +42,6 @@ main>.section,.section{position:relative}
 .hero-pills .d2{width:22px;height:9px;bottom:30%;left:46%;background:#FF8A3D;opacity:.4}
 @keyframes pillfloat{0%,100%{translate:0 0}50%{translate:0 -8px}}
 @media (max-width:760px){
-.hero-pills .cl{top:-12px;right:-90px;transform:scale(.34);transform-origin:top right;opacity:.85}
+.hero-pills .cl{top:-2px;right:-30px;transform:scale(.34);transform-origin:top right;opacity:.85}
 .hero-pills .d2{display:none}.hero-pills .d1{bottom:auto;top:56%;left:3%}}
 @media (prefers-reduced-motion:reduce){.hero-pills .cl{animation:none!important}}
