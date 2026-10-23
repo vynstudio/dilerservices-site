@@ -131,35 +131,35 @@
     "faqs": [
       [
         "Are you a law firm?",
-        "No. Diler Services is a fictitious name of Diler Dynamics Group LLC. We are not a law firm and we do not give legal or tax advice. We prepare and file documents as you direct."
-      ],
-      [
-        "What does the yearly registered agent plan include?",
-        "We serve as your Florida registered agent and registered office, and log and forward mail the same business day. It includes 5 mail scans a year and annual report reminders at 90, 30, and 7 days."
-      ],
-      [
-        "What is Compliance Plus?",
-        "It includes the registered agent service, and we file the annual report each year when you confirm your information."
-      ],
-      [
-        "Can you get an EIN?",
-        "Yes. LLC Standard and LLC Premium include an EIN from the IRS. Please do not send a Social Security number or ITIN through the website form."
+        "No. Diler Services is a fictitious name of Diler Dynamics Group LLC. We are not a law firm and do not give legal or tax advice. We prepare and file documents as you direct."
       ],
       [
         "What languages do you work in?",
         "English, Spanish, and Portuguese."
       ],
       [
+        "Do I need a Florida LLC operating agreement?",
+        "Florida does not require you to file one, but you should have one. It sets who owns what, who makes decisions, and what happens if someone leaves."
+      ],
+      [
+        "Can you get an EIN?",
+        "Yes. LLC Standard and LLC Premium include an EIN from the IRS. Please do not send a Social Security number or ITIN through the website form."
+      ],
+      [
+        "What does the yearly registered agent plan include?",
+        "We act as your Florida registered agent and registered office and log and forward mail the same business day. It includes 5 mail scans a year and annual report reminders at 90, 30, and 7 days."
+      ],
+      [
         "Can I keep my home address off the public record?",
-        "Yes. The registered agent address can be the address on the record. Official mail comes to us, and we forward it to you."
+        "Yes. The registered agent address can be the address on the public record. Official mail comes to us, and we forward it to you."
       ],
       [
         "When is the Florida annual report due?",
-        "Florida requires every LLC to file a report each year. It's due between January 1 and May 1. We remind you and can file it for you."
+        "Every Florida LLC files one each year, between January 1 and May 1. We remind you, and we can file it for you."
       ],
       [
-        "Do I need a Florida LLC operating agreement?",
-        "Florida doesn't make you file one. You still want one. It sets who owns what, who makes decisions, and what happens if someone leaves."
+        "What is Compliance Plus?",
+        "Registered agent service, plus we file your annual report each year once you confirm your information."
       ]
     ],
     "cta_h3": "Ready to file a Florida LLC?",
@@ -269,7 +269,58 @@
           "Yearly good-standing check and quarterly check-in emails"
         ]
       }
-    ]
+    ],
+    "faq_groups": [
+      {
+        "label": "Getting started",
+        "items": [
+          [
+            "Are you a law firm?",
+            "No. Diler Services is a fictitious name of Diler Dynamics Group LLC. We are not a law firm and do not give legal or tax advice. We prepare and file documents as you direct."
+          ],
+          [
+            "What languages do you work in?",
+            "English, Spanish, and Portuguese."
+          ],
+          [
+            "Do I need a Florida LLC operating agreement?",
+            "Florida does not require you to file one, but you should have one. It sets who owns what, who makes decisions, and what happens if someone leaves."
+          ],
+          [
+            "Can you get an EIN?",
+            "Yes. LLC Standard and LLC Premium include an EIN from the IRS. Please do not send a Social Security number or ITIN through the website form."
+          ]
+        ]
+      },
+      {
+        "label": "Registered agent",
+        "items": [
+          [
+            "What does the yearly registered agent plan include?",
+            "We act as your Florida registered agent and registered office and log and forward mail the same business day. It includes 5 mail scans a year and annual report reminders at 90, 30, and 7 days."
+          ],
+          [
+            "Can I keep my home address off the public record?",
+            "Yes. The registered agent address can be the address on the public record. Official mail comes to us, and we forward it to you."
+          ]
+        ]
+      },
+      {
+        "label": "Yearly compliance",
+        "items": [
+          [
+            "When is the Florida annual report due?",
+            "Every Florida LLC files one each year, between January 1 and May 1. We remind you, and we can file it for you."
+          ],
+          [
+            "What is Compliance Plus?",
+            "Registered agent service, plus we file your annual report each year once you confirm your information."
+          ]
+        ]
+      }
+    ],
+    "fq_intro": "Short answers to what new customers ask most.",
+    "fq_more": "Still have a question? Email"
   },
   "es": {
     "title": "Formación de LLC en Florida y agente registrado | Diler Services",

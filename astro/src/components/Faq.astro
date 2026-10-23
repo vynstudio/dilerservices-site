@@ -1,34 +1,34 @@
 ---
-import Icon from "./Icon.astro";
 const { t } = Astro.props;
+const groups = t.faq_groups ?? [{ label: null, items: t.faqs }];
+let n = -1;
 ---
-<section class="faq-section fix section-padding section-bg" id="faq">
-  <div class="auto-container">
-    <div class="row g-4 justify-content-between align-items-start">
-      <div class="col-xl-5 col-lg-6">
-        <div class="faq-left-items-1">
-          <div class="sec-title mb-0">
-            <div class="h6 sub-title reveal"> {t.fq_sub}</div>
-            <h2 class="reveal">{t.fq_h2}</h2>
-          </div>
-        </div>
-      </div>
-      <div class="col-xl-6 col-lg-6">
-        <div class="faq-content-1">
-          <ul class="accordion-box">
-            {t.faqs.map(([q, a], i) => (
-              <li class:list={["accordion block reveal", { "active-block": i === 0 }]}>
-                <button type="button" class:list={["acc-btn", { active: i === 0 }]} aria-expanded={i === 0 ? "true" : "false"} aria-controls={`faq-${i}`} id={`faq-q-${i}`}>
-                  {q} <span class="icon"><Icon name="plus" /></span>
-                </button>
-                <div class:list={["acc-content", { current: i === 0 }]} id={`faq-${i}`} role="region" aria-labelledby={`faq-q-${i}`}>
-                  <div class="content"><div class="text">{a}</div></div>
-                </div>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </div>
+<section class="ds-faq section-padding" id="faq">
+  <div class="ds-faq-wrap">
+    <div class="ds-faq-head">
+      <div class="h6 sub-title"> {t.fq_sub}</div>
+      <h2>{t.fq_h2}</h2>
+      {t.fq_intro && <p>{t.fq_intro}</p>}
     </div>
+    <div class="ds-faq-list accordion-box">
+      {groups.map((g) => (
+        <div class="ds-faq-group">
+          {g.label && <h3 class="ds-faq-label">{g.label}</h3>}
+          {g.items.map(([q, a]) => { n++; const i = n; return (
+            <div class:list={["accordion ds-faq-item", { "active-block": i === 0 }]}>
+              <h4 class="ds-faq-q">
+                <button type="button" class:list={["acc-btn", { active: i === 0 }]} aria-expanded={i === 0 ? "true" : "false"} aria-controls={`faq-${i}`} id={`faq-q-${i}`}>
+                  <span>{q}</span><span class="ds-pm" aria-hidden="true"></span>
+                </button>
+              </h4>
+              <div class:list={["acc-content", { current: i === 0 }]} id={`faq-${i}`} role="region" aria-labelledby={`faq-q-${i}`}>
+                <div class="ds-faq-a"><p>{a}</p></div>
+              </div>
+            </div>
+          ); })}
+        </div>
+      ))}
+    </div>
+    <p class="ds-faq-more">{t.fq_more ?? "Still have a question? Email"} <a href="mailto:info@dilerservices.com">info@dilerservices.com</a></p>
   </div>
 </section>

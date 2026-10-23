@@ -20,7 +20,7 @@ d.querySelectorAll("[data-tab]").forEach((a) => a.addEventListener("click", (e) 
 }));
 // accordion
 d.querySelectorAll(".accordion-box .acc-btn").forEach((btn) => btn.addEventListener("click", () => {
-  const li = btn.closest(".accordion"), box = li.parentElement, open = !btn.classList.contains("active");
+  const li = btn.closest(".accordion"), box = li.closest(".accordion-box"), open = !btn.classList.contains("active");
   box.querySelectorAll(".accordion").forEach((x) => {
     x.classList.remove("active-block"); x.querySelector(".acc-btn").classList.remove("active");
     x.querySelector(".acc-btn").setAttribute("aria-expanded", "false"); x.querySelector(".acc-content").classList.remove("current");

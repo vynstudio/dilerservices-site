@@ -166,31 +166,7 @@
         "name": "Are you a law firm?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "No. Diler Services is a fictitious name of Diler Dynamics Group LLC. We are not a law firm and we do not give legal or tax advice. We prepare and file documents as you direct."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What does the yearly registered agent plan include?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "We serve as your Florida registered agent and registered office, and log and forward mail the same business day. It includes 5 mail scans a year and annual report reminders at 90, 30, and 7 days."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What is Compliance Plus?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "It includes the registered agent service, and we file the annual report each year when you confirm your information."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Can you get an EIN?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes. LLC Standard and LLC Premium include an EIN from the IRS. Please do not send a Social Security number or ITIN through the website form."
+          "text": "No. Diler Services is a fictitious name of Diler Dynamics Group LLC. We are not a law firm and do not give legal or tax advice. We prepare and file documents as you direct."
         }
       },
       {
@@ -203,10 +179,34 @@
       },
       {
         "@type": "Question",
+        "name": "Do I need a Florida LLC operating agreement?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Florida does not require you to file one, but you should have one. It sets who owns what, who makes decisions, and what happens if someone leaves."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can you get an EIN?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. LLC Standard and LLC Premium include an EIN from the IRS. Please do not send a Social Security number or ITIN through the website form."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What does the yearly registered agent plan include?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We act as your Florida registered agent and registered office and log and forward mail the same business day. It includes 5 mail scans a year and annual report reminders at 90, 30, and 7 days."
+        }
+      },
+      {
+        "@type": "Question",
         "name": "Can I keep my home address off the public record?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes. The registered agent address can be the address on the record. Official mail comes to us, and we forward it to you."
+          "text": "Yes. The registered agent address can be the address on the public record. Official mail comes to us, and we forward it to you."
         }
       },
       {
@@ -214,15 +214,15 @@
         "name": "When is the Florida annual report due?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Florida requires every LLC to file a report each year. It's due between January 1 and May 1. We remind you and can file it for you."
+          "text": "Every Florida LLC files one each year, between January 1 and May 1. We remind you, and we can file it for you."
         }
       },
       {
         "@type": "Question",
-        "name": "Do I need a Florida LLC operating agreement?",
+        "name": "What is Compliance Plus?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Florida doesn't make you file one. You still want one. It sets who owns what, who makes decisions, and what happens if someone leaves."
+          "text": "Registered agent service, plus we file your annual report each year once you confirm your information."
         }
       }
     ]

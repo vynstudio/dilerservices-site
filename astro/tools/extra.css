@@ -154,3 +154,27 @@ html body .hero-1::after{background:url("data:image/svg+xml,%3Csvg xmlns='http:/
 .ds-pbtn{margin-top:auto;display:block;text-align:center;background:#C8F169;color:#144443!important;font-weight:600;padding:14px 16px;border-radius:6px;text-decoration:none}
 .ds-pbtn:hover{background:#b7e24f}
 @media(max-width:767px){.ds-pgroup{margin-top:36px}.ds-best{min-height:0}.ds-amt{font-size:38px}}
+/* faq v2 */
+.ds-faq{background:#fff}
+.ds-faq-wrap{max-width:800px;margin:0 auto;padding:0 20px}
+.ds-faq-head{text-align:center;margin-bottom:40px}
+.ds-faq-head h2{color:#144443;margin:8px 0 12px}
+.ds-faq-head p{color:#3d4f4e;font-size:17px;margin:0}
+.ds-faq-group{margin-top:32px}
+.ds-faq-label{font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:#144443;margin:0 0 4px;padding-bottom:10px;border-bottom:2px solid #C8F169}
+.ds-faq-item{border-bottom:1px solid #e1e8e7;margin:0!important;background:none!important;box-shadow:none!important}
+.ds-faq-q{margin:0;font-size:inherit}
+.ds-faq .acc-btn{all:unset;box-sizing:border-box;width:100%;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:22px 0;cursor:pointer;font-size:18px;font-weight:600;line-height:1.4;color:#144443}
+.ds-faq .acc-btn:focus-visible{outline:2px solid #144443;outline-offset:4px;border-radius:4px}
+.ds-pm{position:relative;flex:0 0 28px;width:28px;height:28px;border-radius:6px;background:#C8F169}
+.ds-pm::before,.ds-pm::after{content:"";position:absolute;left:50%;top:50%;width:12px;height:2px;background:#144443;transform:translate(-50%,-50%);transition:transform .25s ease}
+.ds-pm::after{transform:translate(-50%,-50%) rotate(90deg)}
+.ds-faq .acc-btn.active .ds-pm::after{transform:translate(-50%,-50%) rotate(0deg)}
+.ds-faq .acc-content{display:grid!important;grid-template-rows:0fr;transition:grid-template-rows .3s ease;overflow:hidden}
+.ds-faq .acc-content.current{grid-template-rows:1fr}
+.ds-faq-a{min-height:0;overflow:hidden}
+.ds-faq-a p{margin:0;padding:0 48px 22px 0;color:#3d4f4e;font-size:16px;line-height:1.65}
+.ds-faq-more{text-align:center;margin:40px 0 0;color:#3d4f4e}
+.ds-faq-more a{color:#144443;font-weight:600;text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
+@media(prefers-reduced-motion:reduce){.ds-faq .acc-content,.ds-pm::before,.ds-pm::after{transition:none}}
+@media(max-width:575px){.ds-faq .acc-btn{font-size:16px;padding:18px 0}.ds-faq-a p{padding-right:0}}
